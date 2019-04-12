@@ -59,17 +59,17 @@ VersionScreenTilemap:
 VersionScreenTilemapEnd:
 
 VersionScreenText:
-	db   "Welcome to Red++"
-	next "You are playing"
-IF DEF(_HARD) ; Hard Rom
-	next "The Hard Patch"
-ELSE ; Normal Rom
-	next "The Normal Patch"
-ENDC
+	db   "Red++ Classic"
 IF DEF(_SNOW)
-	next "v3.0.2 (Snowy)@"
+	next "v1.0.0 (Snowy)"
 ELSE
-	next "v3.0.2@"
+	next "v1.0.0"
+ENDC
+	next ""
+IF DEF(_HARD) ; Hard Rom
+	next "Hard Version@"
+ELSE ; Normal Rom
+	next "Normal Version@"
 ENDC
 
 VersionScreenText2:
@@ -77,8 +77,8 @@ VersionScreenText2:
 	next "are found at:"
 	next "www.github.com/"
 	next "TheFakeMateo/"
-	next "rpp-backup@"
+	next "rpp-classic@"
 
 VersionScreenText3:
 	db   "Have fun!"
-	next "  - Mateo, 2018@"
+	next "  - Mateo, 2019@"
