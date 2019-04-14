@@ -274,4 +274,3 @@ TrainerPalettes:
 	db PAL_FLANNERY
 	db PAL_JESSIE
 	db PAL_JAMES
-	db PAL_GIOVANNI_2

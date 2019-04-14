@@ -180,7 +180,7 @@ BlaineData:
 ; Giovanni Gym Battle
 	db "Giovanni@"
 	db SPECIAL_TRAINER2
-	db GIOVANNI_2 ; pic
+	db GIOVANNI ; pic
 	db AI_HYPER_POTION ; AI
 	
 	db 45,RHYDON

@@ -2692,7 +2692,6 @@ PiTrainerPic::   INCBIN "pic/trainer/pi.pic"
 HexManiacPic::   INCBIN "pic/trainer/hex_maniac.pic"
 JessiePic::      INCBIN "pic/trainer/jessie.pic"
 JamesPic::       INCBIN "pic/trainer/james.pic"
-GiovanniGymPic:: INCBIN "pic/trainer/giovanni2.pic"
 YoungCouplePic:: INCBIN "pic/trainer/young_couple.pic"
 FlanneryPic::    INCBIN "pic/trainer/flannery.pic"
 

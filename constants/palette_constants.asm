@@ -339,4 +339,3 @@ const_value = 0
 	const PAL_FLANNERY
 	const PAL_JESSIE
 	const PAL_JAMES
-	const PAL_GIOVANNI_2

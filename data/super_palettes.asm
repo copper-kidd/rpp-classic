@@ -2154,7 +2154,3 @@ TrainerPaletteTable:
 ; PAL_JAMES
 	RGB 30, 22, 17
 	RGB 10, 12, 19
-
-; PAL_GIOVANNI_2
-	RGB 25, 17, 12
-	RGB 08, 10, 12
