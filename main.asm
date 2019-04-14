@@ -1209,8 +1209,7 @@ LoreleiPic::       INCBIN "pic/trainer/lorelei.pic"
 ChannelerPic::     INCBIN "pic/trainer/channeler.pic"
 AgathaPic::        INCBIN "pic/trainer/agatha.pic"
 LancePic::         INCBIN "pic/trainer/lance.pic"
-YoungCouplePic::   INCBIN "pic/trainer/young_couple.pic"
-FlanneryPic::      INCBIN "pic/trainer/flannery.pic"
+
 
 INCLUDE "data/mapHeaders/TradeCenter.asm"
 INCLUDE "scripts/TradeCenter.asm"
@@ -2694,7 +2693,8 @@ HexManiacPic::   INCBIN "pic/trainer/hex_maniac.pic"
 JessiePic::      INCBIN "pic/trainer/jessie.pic"
 JamesPic::       INCBIN "pic/trainer/james.pic"
 GiovanniGymPic:: INCBIN "pic/trainer/giovanni2.pic"
-
+YoungCouplePic:: INCBIN "pic/trainer/young_couple.pic"
+FlanneryPic::    INCBIN "pic/trainer/flannery.pic"
 
 ForestGate_GFX:      INCBIN "gfx/tilesets/forest_gate.2bpp"
 ForestGate_Block:    INCBIN "gfx/blocksets/forest_gate.bst"
