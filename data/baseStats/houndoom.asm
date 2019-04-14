@@ -1,5 +1,5 @@
 HoundoomBaseStats:
-db DEX_HOUNDOOM ; pokedex id
+db HOUNDOOM ; pokedex id
 db 75 ; base hp
 db 90 ; base attack
 db 50 ; base defense

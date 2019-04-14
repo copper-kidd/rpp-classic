@@ -1,5 +1,5 @@
 MismagiusBaseStats:
-db DEX_MISMAGIUS ; pokedex id
+db MISMAGIUS ; pokedex id
 db 60 ; base hp
 db 60 ; base attack
 db 60 ; base defense

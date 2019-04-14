@@ -1,5 +1,5 @@
 SlugmaBaseStats:
-db DEX_SLUGMA ; pokedex id
+db SLUGMA ; pokedex id
 db 40 ; base hp
 db 40 ; base attack
 db 40 ; base defense

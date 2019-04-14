@@ -1,5 +1,5 @@
 LeafeonBaseStats:
-db DEX_LEAFEON ; pokedex id
+db LEAFEON ; pokedex id
 db 65 ; base hp
 db 110 ; base attack
 db 130 ; base defense

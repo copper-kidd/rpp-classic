@@ -1,4 +1,4 @@
-db DEX_NIDOKING ; pokedex id
+db NIDOKING ; pokedex id
 db 81 ; base hp
 db 102 ; base attack
 db 77 ; base defense

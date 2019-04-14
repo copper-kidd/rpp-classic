@@ -1,5 +1,5 @@
 EspeonBaseStats:
-db DEX_ESPEON ; pokedex id
+db ESPEON ; pokedex id
 db 65 ; base hp
 db 65 ; base attack
 db 60 ; base defense

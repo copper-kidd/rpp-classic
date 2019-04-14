@@ -1,5 +1,5 @@
 HonchkrowBaseStats:
-db DEX_HONCHKROW ; pokedex id
+db HONCHKROW ; pokedex id
 db 100 ; base hp
 db 125 ; base attack
 db 52 ; base defense

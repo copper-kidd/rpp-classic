@@ -1,5 +1,5 @@
 MimeJrBaseStats:
-db DEX_MIME_JR ; pokedex id
+db MIME_JR ; pokedex id
 db 20 ; base hp
 db 25 ; base attack
 db 45 ; base defense

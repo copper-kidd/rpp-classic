@@ -1,5 +1,5 @@
 SkarmoryBaseStats:
-db DEX_SKARMORY ; pokedex id
+db SKARMORY ; pokedex id
 db 65 ; base hp
 db 80 ; base attack
 db 140 ; base defense

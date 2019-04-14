@@ -1,5 +1,5 @@
 BellossomBaseStats:
-db DEX_BELLOSSOM ; pokedex id
+db BELLOSSOM ; pokedex id
 db 75 ; base hp
 db 80 ; base attack
 db 95 ; base defense

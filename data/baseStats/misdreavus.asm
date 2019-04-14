@@ -1,5 +1,5 @@
 MisdreavusBaseStats:
-db DEX_MISDREAVUS ; pokedex id
+db MISDREAVUS ; pokedex id
 db 60 ; base hp
 db 60 ; base attack
 db 60 ; base defense

@@ -1,5 +1,5 @@
 TorkoalBaseStats:
-db DEX_TORKOAL ; pokedex id
+db TORKOAL ; pokedex id
 db 70 ; base hp
 db 85 ; base attack
 db 140 ; base defense

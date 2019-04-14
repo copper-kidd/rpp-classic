@@ -96,10 +96,6 @@ DeterminePaletteIDBack:
 	ret
 
 GetMonPalette:
-	push bc
-	predef IndexToPokedex ; turn Pokemon ID number into Pokedex number
-	pop bc
-
 	ld a, [wd11e]
 	ld hl, MonsterPalettes
 	ld e, a

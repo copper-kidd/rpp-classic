@@ -1,5 +1,5 @@
 HappinyBaseStats:
-db DEX_HAPPINY ; pokedex id
+db HAPPINY ; pokedex id
 db 100 ; base hp
 db 5 ; base attack
 db 5 ; base defense

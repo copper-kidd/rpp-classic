@@ -1,5 +1,5 @@
 SteelixBaseStats:
-db DEX_STEELIX ; pokedex id
+db STEELIX ; pokedex id
 db 75 ; base hp
 db 85 ; base attack
 db 200 ; base defense

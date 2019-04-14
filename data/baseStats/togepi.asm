@@ -1,5 +1,5 @@
 TogepiBaseStats:
-db DEX_TOGEPI ; pokedex id
+db TOGEPI ; pokedex id
 db 35 ; base hp
 db 20 ; base attack
 db 65 ; base defense

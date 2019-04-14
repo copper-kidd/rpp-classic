@@ -1,5 +1,5 @@
 PolitoedBaseStats:
-db DEX_POLITOED ; pokedex id
+db POLITOED ; pokedex id
 db 90 ; base hp
 db 75 ; base attack
 db 75 ; base defense

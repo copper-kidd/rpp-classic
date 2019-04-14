@@ -1,5 +1,5 @@
 SneaselBaseStats:
-db DEX_SNEASEL ; pokedex id
+db SNEASEL ; pokedex id
 db 55 ; base hp
 db 95 ; base attack
 db 55 ; base defense

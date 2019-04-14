@@ -1,5 +1,5 @@
 MagcargoBaseStats:
-db DEX_MAGCARGO ; pokedex id
+db MAGCARGO ; pokedex id
 db 60 ; base hp
 db 50 ; base attack
 db 120 ; base defense

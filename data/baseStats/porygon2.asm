@@ -1,5 +1,5 @@
 Porygon2BaseStats:
-db DEX_PORYGON2 ; pokedex id
+db PORYGON2 ; pokedex id
 db 85 ; base hp
 db 80 ; base attack
 db 90 ; base defense

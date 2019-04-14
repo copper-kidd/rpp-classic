@@ -208,6 +208,7 @@ const_value = 1
 	const ZIGZAGOON   ; 206
 	const LINOONE     ; 207
 	const HO_OH       ; 208
+NUM_POKEMON    EQU const_value
 
 MON_GHOST           EQU 252
 FOSSIL_KABUTOPS     EQU 253

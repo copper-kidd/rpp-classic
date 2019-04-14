@@ -1,4 +1,4 @@
-db DEX_ZIGZAGOON ; pokedex id
+db ZIGZAGOON ; pokedex id
 db 38 ; base hp
 db 30 ; base attack
 db 41 ; base defense

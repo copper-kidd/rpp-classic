@@ -1,5 +1,5 @@
 LickilickyBaseStats:
-db DEX_LICKILICKY ; pokedex id
+db LICKILICKY ; pokedex id
 db 110 ; base hp
 db 85 ; base attack
 db 95 ; base defense

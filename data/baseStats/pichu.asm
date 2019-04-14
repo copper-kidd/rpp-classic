@@ -1,5 +1,5 @@
 PichuBaseStats:
-db DEX_PICHU ; pokedex id
+db PICHU ; pokedex id
 db 20 ; base hp
 db 40 ; base attack
 db 15 ; base defense

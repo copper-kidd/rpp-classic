@@ -1,5 +1,5 @@
 MurkrowBaseStats:
-db DEX_MURKROW ; pokedex id
+db MURKROW ; pokedex id
 db 60 ; base hp
 db 85 ; base attack
 db 42 ; base defense

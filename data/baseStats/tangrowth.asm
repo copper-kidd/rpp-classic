@@ -1,5 +1,5 @@
 TangrowthBaseStats:
-db DEX_TANGROWTH ; pokedex id
+db TANGROWTH ; pokedex id
 db 100 ; base hp
 db 100 ; base attack
 db 125 ; base defense

@@ -559,7 +559,6 @@ BallAnyway:
 	call PrintText
 
 ; Add the caught Pokémon to the Pokédex.
-	predef IndexToPokedex
 	ld a,[wd11e]
 	dec a
 	ld c,a

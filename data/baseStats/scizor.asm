@@ -1,5 +1,5 @@
 ScizorBaseStats:
-db DEX_SCIZOR ; pokedex id
+db SCIZOR ; pokedex id
 db 70 ; base hp
 db 130 ; base attack
 db 100 ; base defense

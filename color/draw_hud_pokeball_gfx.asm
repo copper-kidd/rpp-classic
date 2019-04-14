@@ -39,9 +39,6 @@ EnemyHUDHAX:
 	jr  nz, .notWildBattle
 	push hl
 	ld a, [wEnemyMonSpecies2]
-	ld [wd11e], a
-	callab IndexToPokedex
-	ld a, [wd11e]
 	dec a
 	ld c, a
 	ld b, FLAG_TEST

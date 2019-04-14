@@ -1,5 +1,5 @@
 KingdraBaseStats:
-db DEX_KINGDRA ; pokedex id
+db KINGDRA ; pokedex id
 db 75 ; base hp
 db 95 ; base attack
 db 95 ; base defense

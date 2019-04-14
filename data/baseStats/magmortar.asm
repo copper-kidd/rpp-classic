@@ -1,5 +1,5 @@
 MagmortarBaseStats:
-db DEX_MAGMORTAR ; pokedex id
+db MAGMORTAR ; pokedex id
 db 75 ; base hp
 db 95 ; base attack
 db 67 ; base defense

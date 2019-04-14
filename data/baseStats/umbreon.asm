@@ -1,5 +1,5 @@
 UmbreonBaseStats:
-db DEX_UMBREON ; pokedex id
+db UMBREON ; pokedex id
 db 95 ; base hp
 db 65 ; base attack
 db 110 ; base defense

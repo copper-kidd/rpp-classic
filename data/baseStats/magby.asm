@@ -1,5 +1,5 @@
 MagbyBaseStats:
-db DEX_MAGBY ; pokedex id
+db MAGBY ; pokedex id
 db 45 ; base hp
 db 75 ; base attack
 db 37 ; base defense

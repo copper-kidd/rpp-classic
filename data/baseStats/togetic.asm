@@ -1,5 +1,5 @@
 TogeticBaseStats:
-db DEX_TOGETIC ; pokedex id
+db TOGETIC ; pokedex id
 db 55 ; base hp
 db 40 ; base attack
 db 85 ; base defense

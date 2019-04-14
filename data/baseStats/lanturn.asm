@@ -1,5 +1,5 @@
 LanturnBaseStats:
-db DEX_LANTURN ; pokedex id
+db LANTURN ; pokedex id
 db 125 ; base hp
 db 58 ; base attack
 db 58 ; base defense

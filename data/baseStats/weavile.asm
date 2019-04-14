@@ -1,5 +1,5 @@
 WeavileBaseStats:
-db DEX_WEAVILE ; pokedex id
+db WEAVILE ; pokedex id
 db 70 ; base hp
 db 120 ; base attack
 db 65 ; base defense

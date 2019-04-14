@@ -338,7 +338,6 @@ LoadFrontSpriteByMonIndex::
 	push af
 	ld a, [wcf91]
 	ld [wd11e], a
-	predef IndexToPokedex
 	ld hl, wd11e
 	ld a, [hl]
 	pop bc
@@ -635,7 +634,6 @@ GetMonHeader::
 	ld b,$77 ; size of Aerodactyl fossil sprite
 	cp FOSSIL_AERODACTYL ; Aerodactyl fossil
 	jr z,.specialID
-	predef IndexToPokedex   ; convert pokemon ID in [wd11e] to pokedex number
 	ld a,[wd11e]
 	dec a
 	ld bc, MonBaseStatsEnd - MonBaseStats

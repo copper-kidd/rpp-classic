@@ -1,5 +1,5 @@
 HitmontopBaseStats:
-db DEX_HITMONTOP ; pokedex id
+db HITMONTOP ; pokedex id
 db 50 ; base hp
 db 95 ; base attack
 db 95 ; base defense

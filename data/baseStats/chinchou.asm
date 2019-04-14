@@ -1,5 +1,5 @@
 ChinchouBaseStats:
-db DEX_CHINCHOU ; pokedex id
+db CHINCHOU ; pokedex id
 db 75 ; base hp
 db 38 ; base attack
 db 38 ; base defense

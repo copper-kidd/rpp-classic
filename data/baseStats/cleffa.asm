@@ -1,5 +1,5 @@
 CleffaBaseStats:
-db DEX_CLEFFA ; pokedex id
+db CLEFFA ; pokedex id
 db 50 ; base hp
 db 25 ; base attack
 db 28 ; base defense

@@ -1,5 +1,5 @@
 SylveonBaseStats:
-db DEX_SYLVEON ; pokedex id
+db SYLVEON ; pokedex id
 db 95 ; base hp
 db 65 ; base attack
 db 65 ; base defense

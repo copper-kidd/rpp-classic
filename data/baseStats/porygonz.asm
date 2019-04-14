@@ -1,5 +1,5 @@
 PorygonZBaseStats:
-db DEX_PORYGONZ ; pokedex id
+db PORYGONZ ; pokedex id
 db 85 ; base hp
 db 80 ; base attack
 db 70 ; base defense

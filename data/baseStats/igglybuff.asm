@@ -1,5 +1,5 @@
 IgglybuffBaseStats:
-db DEX_IGGLYBUFF ; pokedex id
+db IGGLYBUFF ; pokedex id
 db 90 ; base hp
 db 30 ; base attack
 db 15 ; base defense

@@ -1,5 +1,5 @@
 GlaceonBaseStats:
-db DEX_GLACEON ; pokedex id
+db GLACEON ; pokedex id
 db 65 ; base hp
 db 60 ; base attack
 db 110 ; base defense

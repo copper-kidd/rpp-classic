@@ -1,5 +1,5 @@
 BlisseyBaseStats:
-db DEX_BLISSEY ; pokedex id
+db BLISSEY ; pokedex id
 db 255 ; base hp
 db 10 ; base attack
 db 10 ; base defense

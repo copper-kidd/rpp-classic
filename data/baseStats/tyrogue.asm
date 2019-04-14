@@ -1,5 +1,5 @@
 TyrogueBaseStats:
-db DEX_TYROGUE ; pokedex id
+db TYROGUE ; pokedex id
 db 35 ; base hp
 db 35 ; base attack
 db 35 ; base defense

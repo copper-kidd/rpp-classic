@@ -1,5 +1,5 @@
 ElekidBaseStats:
-db DEX_ELEKID ; pokedex id
+db ELEKID ; pokedex id
 db 45 ; base hp
 db 63 ; base attack
 db 37 ; base defense

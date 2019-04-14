@@ -1,4 +1,4 @@
-db DEX_LINOONE ; pokedex id
+db LINOONE ; pokedex id
 db 78  ; base hp
 db 70  ; base attack
 db 61  ; base defense

@@ -1,5 +1,5 @@
 MagnezoneBaseStats:
-db DEX_MAGNEZONE ; pokedex id
+db MAGNEZONE ; pokedex id
 db 70 ; base hp
 db 70 ; base attack
 db 115 ; base defense

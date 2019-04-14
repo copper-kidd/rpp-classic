@@ -1,5 +1,5 @@
 LatiasBaseStats:
-db DEX_LATIAS ; pokedex id
+db LATIAS ; pokedex id
 db 80 ; base hp
 db 80 ; base attack
 db 90 ; base defense

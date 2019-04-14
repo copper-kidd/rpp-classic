@@ -1,5 +1,5 @@
 HoundourBaseStats:
-db DEX_HOUNDOUR ; pokedex id
+db HOUNDOUR ; pokedex id
 db 45 ; base hp
 db 60 ; base attack
 db 30 ; base defense

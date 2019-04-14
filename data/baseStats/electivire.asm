@@ -1,5 +1,5 @@
 ElectivireBaseStats:
-db DEX_ELECTIVIRE ; pokedex id
+db ELECTIVIRE ; pokedex id
 db 75 ; base hp
 db 123 ; base attack
 db 67 ; base defense

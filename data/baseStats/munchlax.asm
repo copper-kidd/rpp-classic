@@ -1,5 +1,5 @@
 MunchlaxBaseStats:
-db DEX_MUNCHLAX ; pokedex id
+db MUNCHLAX ; pokedex id
 db 135 ; base hp
 db 85 ; base attack
 db 40 ; base defense

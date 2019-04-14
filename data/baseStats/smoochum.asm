@@ -1,5 +1,5 @@
 SmoochumBaseStats:
-db DEX_SMOOCHUM ; pokedex id
+db SMOOCHUM ; pokedex id
 db 45 ; base hp
 db 30 ; base attack
 db 15 ; base defense
