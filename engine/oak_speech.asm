@@ -57,11 +57,6 @@ OakSpeech:
 	call SpecialWarpIn
 	xor a
 	ld [hTilesetType],a
-	;ld a, PAL_PROF_OAK
-	;call GotIntroTrainerPalID ; HAX
-	;ld a,[wd732]
-	;bit 1,a ; possibly a debug mode bit
-	;jp nz,.skipChoosingNames
 	
 	callba DisplayHackVersionScreen
 	
@@ -97,8 +92,8 @@ OakSpeech:
 	call PrintText
 	call GBFadeOutToWhite
 	;call ClearScreen
-	call GetSylveonPalID ; HAX
-	ld a,SYLVEON
+	call GetNidoPalID ; HAX
+	ld a, NIDORINO
 	ld [wd0b5],a
 	ld [wcf91],a
 	call GetMonHeader
@@ -210,7 +205,7 @@ OakSpeechText1:
 	db "@"
 OakSpeechText2:
 	TX_FAR _OakSpeechText2A
-	TX_CRY_NIDORINA
+	TX_CRY_NIDORINO
 	TX_FAR _OakSpeechText2B
 	db "@"
 IntroducePlayerText:
