@@ -59,13 +59,9 @@ VersionScreenTilemap:
 VersionScreenTilemapEnd:
 
 VersionScreenText:
-	db   "Red++ Classic"
-IF DEF(_SNOW)
-	next "v1.0.0 (Snowy)"
-ELSE
+	db   "Welcome to Red++"
+	next "Classic Edition"
 	next "v1.0.0"
-ENDC
-	next ""
 IF DEF(_HARD) ; Hard Rom
 	next "Hard Version@"
 ELSE ; Normal Rom
