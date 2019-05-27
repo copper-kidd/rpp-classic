@@ -74,16 +74,16 @@ ENDM
 	mapconst BIKE_SHOP,                   4,  4 ; $42
 	mapconst CERULEAN_MART,               4,  4 ; $43
 	mapconst MT_MOON_POKECENTER,          4,  7 ; $44
-	mapconst MT_MOON_SQUARE_COPY,         9, 15 ; $45
+	mapconst UNUSED_MAP_45,               1,  1 ; $45
 	mapconst ROUTE_5_GATE,                3,  4 ; $46
 	mapconst PATH_ENTRANCE_ROUTE_5,       4,  4 ; $47
 	mapconst DAYCAREM,                    4,  4 ; $48
 	mapconst ROUTE_6_GATE,                3,  4 ; $49
 	mapconst PATH_ENTRANCE_ROUTE_6,       4,  4 ; $4A
-	mapconst MT_MOON_SQUARE_HOUSE,        4,  4 ; $4B
+	mapconst UNUSED_MAP_4B,               1,  1 ; $4B
 	mapconst ROUTE_7_GATE,                4,  3 ; $4C
 	mapconst PATH_ENTRANCE_ROUTE_7,       4,  4 ; $4D
-	mapconst PATH_ENTRANCE_ROUTE_7_COPY,  4,  4 ; $4E
+	mapconst UNUSED_MAP_4E,               1,  1 ; $4E
 	mapconst ROUTE_8_GATE,                4,  3 ; $4F
 	mapconst PATH_ENTRANCE_ROUTE_8,       4,  4 ; $50
 	mapconst ROCK_TUNNEL_POKECENTER,      4,  7 ; $51
@@ -116,13 +116,13 @@ ENDM
 	mapconst VICTORY_ROAD_1,              9, 10 ; $6C
 	mapconst FARAWAY_ISLAND_OUTSIDE,     23, 17 ; $6D
 	mapconst FARAWAY_ISLAND_INSIDE,      13, 15 ; $6E
-	mapconst SOUTHERN_ISLAND_OUTSIDE,    15, 17 ; $6F
-	mapconst SOUTHERN_ISLAND_INSIDE,     12, 14 ; $70
+	mapconst UNUSED_MAP_6F,               1,  1 ; $6F
+	mapconst UNUSED_MAP_70,               1,  1 ; $70
 	mapconst LANCES_ROOM,                13, 13 ; $71
-	mapconst NAVEL_ROCK_FERRY_DOCK,       6,  6 ; $72
-	mapconst NAVEL_ROCK_OUTSIDE,          9, 10 ; $73
-	mapconst NAVEL_ROCK_CAVE_1,           4,  4 ; $74
-	mapconst NAVEL_ROCK_CAVE_2,          18, 20 ; $75
+	mapconst UNUSED_MAP_72,               1,  1 ; $72
+	mapconst UNUSED_MAP_73,               1,  1 ; $73
+	mapconst UNUSED_MAP_74,               1,  1 ; $74
+	mapconst UNUSED_MAP_75,               1,  1 ; $75
 	mapconst HALL_OF_FAME,                4,  5 ; $76
 	mapconst UNDERGROUND_PATH_NS,        23,  4 ; $77
 	mapconst CHAMPIONS_ROOM,              4,  4 ; $78
@@ -242,8 +242,8 @@ ENDM
 	mapconst SILPH_CO_10F,                9,  8 ; $EA
 	mapconst SILPH_CO_11F,                9,  9 ; $EB
 	mapconst SILPH_CO_ELEVATOR,           2,  2 ; $EC
-	mapconst NAVEL_ROCK_HO_OH_ROOM,      14, 14 ; $ED
-	mapconst NAVEL_ROCK_LUGIA_ROOM,      20, 14 ; $EE
+	mapconst UNUSED_MAP_ED,               1,  1 ; $ED
+	mapconst UNUSED_MAP_EE,               1,  1 ; $EE
 	mapconst TRADE_CENTER,                4,  5 ; $EF
 	mapconst COLOSSEUM,                   4,  5 ; $F0
 	mapconst UNUSED_MAP_F1,               0,  0 ; $F1

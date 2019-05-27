@@ -60,9 +60,7 @@ InternalMapEntries:
 	IMAP MT_MOON_SHOP,               84,  56, MountMoonSquareName
 	IMAP VERMILION_FERRY_DOCK,      116,  92, VermilionCityName
 	IMAP VICTORY_ROAD_1,             36,  68, VictoryRoadName
-	IMAP SOUTHERN_ISLAND_INSIDE,    116,  94, AreaUnknownText
 	IMAP LANCES_ROOM,                36,  92, PokemonLeagueName
-	IMAP NAVEL_ROCK_CAVE_2,         116,  94, AreaUnknownText
 	IMAP HALL_OF_FAME,               36,  92, PokemonLeagueName
 	IMAP UNDERGROUND_PATH_NS,       122,  82, UndergroundPathName
 	IMAP CHAMPIONS_ROOM,             36,  92, PokemonLeagueName
@@ -103,6 +101,5 @@ InternalMapEntries:
 	IMAP CERULEAN_HOUSE_2,          116,  60, CeruleanCityName
 	IMAP ROCK_TUNNEL_2,             148,  60, RockTunnelName
 	IMAP SILPH_CO_ELEVATOR,         116,  76, SilphCoName
-	IMAP NAVEL_ROCK_LUGIA_ROOM,     116,  94, AreaUnknownText
 	IMAP AGATHAS_ROOM,               36,  92, PokemonLeagueName
 	db $FF

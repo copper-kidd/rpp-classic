@@ -35,7 +35,6 @@ HiddenItemCoords:
 	db ROUTE_23,$5a,$08
 	db VICTORY_ROAD_2,$02,$05
 	db VICTORY_ROAD_2,$07,$1a
-	db SOUTHERN_ISLAND_OUTSIDE,$0C,$11
 	db VIRIDIAN_CITY,$04,$0e
 	db ROUTE_11,$05,$30
 	db ROUTE_12,$3f,$02

@@ -117,7 +117,7 @@ MapHSPointers:
 	dw MapHSXX
 	dw MapHS6E
 	dw MapHSXX
-	dw MapHS70
+	dw MapHSXX
 	dw MapHSXX
 	dw MapHSXX
 	dw MapHSXX
@@ -243,7 +243,7 @@ MapHSPointers:
 	dw MapHSEB
 	dw MapHSXX
 	dw MapHSXX
-	dw MapHSEE
+	dw MapHSXX
 	dw MapHSXX
 	dw MapHSXX
 	dw MapHSXX
@@ -575,11 +575,5 @@ MapHSA2:
 	db SEAFOAM_ISLANDS_5,$03,Show
 MapHS6E:
 	db FARAWAY_ISLAND_INSIDE,$01,Show
-MapHS70:
-	db SOUTHERN_ISLAND_INSIDE,$01,Show
-	db SOUTHERN_ISLAND_INSIDE,$02,Show
-MapHSEE:
-	db NAVEL_ROCK_LUGIA_ROOM,$01,Show
-;	db NAVEL_ROCK_LUGIA_ROOM,$02,Show
 ; End of list thing
 	db $FF,$01,Show

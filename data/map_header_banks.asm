@@ -69,16 +69,16 @@ MapHeaderBanks:
 	db BANK(BikeShop_h)
 	db BANK(CeruleanMart_h)
 	db BANK(MtMoonPokecenter_h)
-	db BANK(CeruleanHouseTrashed_h)
+	db -1 ; unused
 	db BANK(Route5Gate_h)
 	db BANK(UndergroundPathEntranceRoute5_h)
 	db BANK(DayCareM_h)
 	db BANK(Route6Gate_h)
 	db BANK(UndergroundPathEntranceRoute6_h)
-	db BANK(UndergroundPathEntranceRoute6_h) ; FREEZE
+	db -1 ; unused
 	db BANK(Route7Gate_h)
 	db BANK(UndergroundPathEntranceRoute7_h)
-	db BANK(UndergroundPathEntranceRoute7Copy_h) ;FREEZE
+	db -1 ; unused
 	db BANK(Route8Gate_h)
 	db BANK(UndergroundPathEntranceRoute8_h)
 	db BANK(RockTunnelPokecenter_h)
@@ -111,13 +111,13 @@ MapHeaderBanks:
 	db BANK(VictoryRoad1_h)
 	db BANK(FarawayIslandOutside_h) ;originally unused
 	db BANK(FarawayIslandInside_h)  ;originally unused
-	db BANK(SouthernIslandOutside_h);originally unused
-	db BANK(SouthernIslandInside_h) ;originally unused
+	db -1 ;originally unused
+	db -1 ;originally unused
 	db BANK(Lance_h)
-	db BANK(NavelRockFerryDock_h) ;originally unused
-	db BANK(NavelRockOutside_h) ;originally unused
-	db BANK(NavelRockCave1_h) ;originally unused
-	db BANK(NavelRockCave2_h) ;originally unused
+	db -1 ;originally unused
+	db -1 ;originally unused
+	db -1 ;originally unused
+	db -1 ;originally unused
 	db BANK(HallofFameRoom_h)
 	db BANK(UndergroundPathNS_h)
 	db BANK(Gary_h)
@@ -238,7 +238,7 @@ MapHeaderBanks:
 	db BANK(SilphCo11_h)
 	db BANK(SilphCoElevator_h)
 	db $11
-	db BANK(NavelRockLugiaRoom_h) ; originally unused
+	db -1 ; originally unused
 	db BANK(TradeCenter_h)
 	db BANK(Colosseum_h)
 	db $11

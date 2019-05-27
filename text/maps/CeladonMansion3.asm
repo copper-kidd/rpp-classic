@@ -50,20 +50,28 @@ _GameDesignerGiveTicketText::
 	done
 	
 _ReceivedEonTicketText::
+; placeholder
 	text "[PLAYER] received"
-	line "the Eon Ticket!"
+	line "the Master Ball!"
 	done
 
 _GameDesignerAlreadyGivenText::
-	text "The Eon Ticket"
-	line "allows you to"
-	cont "visit Southern"
-	cont "Island in Hoenn."
-	
-	para "You can take the"
-	line "Seagallop Ferry"
-	cont "in Vermilion to"
-	cont "get there."
+; placeholder
+	text "President: You"
+	line "can't buy that"
+	cont "anywhere!"
+
+	para "It's our secret"
+	line "prototype Master"
+	cont "Ball!"
+
+	para "It will catch any"
+	line "#mon without"
+	cont "fail!"
+
+	para "You should be"
+	line "quiet about using"
+	cont "it, though."
 	done
 
 _CeladonMansion3Text5::

@@ -45,7 +45,7 @@ DirectorText:
 .Enough
 	ld hl, .GameDesignerGiveTicketText
 	call PrintText
-	ld b, EON_TICKET
+	ld b, MASTER_BALL ; placeholder
 	ld c, 1
 	call GiveItem
 	jr nc, .bagFull

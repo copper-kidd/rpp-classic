@@ -110,13 +110,13 @@ MapSongBanks:
 	db MUSIC_DUNGEON3, 0 ; VictoryRoad1
 	db MUSIC_ABANDONED_SHIP, 0 ; Faraway Island Outside
 	db MUSIC_ABANDONED_SHIP, 0 ; Faraway Island Inside
-	db MUSIC_ABANDONED_SHIP, 0 ; Southern Island Outside
-	db MUSIC_ABANDONED_SHIP, 0 ; Southern Island Inside
+	db 0, 0 ; unused
+	db 0, 0 ; unused
 	db MUSIC_INDIGO_PLATEAU, 0 ; Lance
-	db MUSIC_SS_ANNE, 0 ; Navel Rock Ferry Dock
-	db MUSIC_LAKE_OF_RAGE, 0 ; Navel Rock Outside
-	db MUSIC_DUNGEON3, 0 ; Navel Rock Cave
-	db MUSIC_DUNGEON3, 0 ; Navel Rock Cave
+	db 0, 0 ; unused
+	db 0, 0 ; unused
+	db 0, 0 ; unused
+	db 0, 0 ; unused
 	db MUSIC_PALLET_TOWN, 0 ; HallofFameRoom
 	db MUSIC_ROUTES1, 0 ; UndergroundPathNS
 	db MUSIC_INDIGO_PLATEAU, 0 ; Gary

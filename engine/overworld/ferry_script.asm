@@ -152,12 +152,12 @@ DoIslandMenu:
 
 .choseSouthernIsland
 	ld b, 0
-	ld c, SOUTHERN_ISLAND_OUTSIDE
+	ld c, PALLET_TOWN ; placeholder
 	jr .islandSelected
 
 .choseNavelRock
-	ld b, 2
-	ld c, NAVEL_ROCK_FERRY_DOCK
+	ld b, 0
+	ld c, PALLET_TOWN ; placeholder
 	; fallthrough
 
 .islandSelected
