@@ -383,7 +383,7 @@ OaksLabScript11:
 	; define which team rival uses, and fight it
 	ld a, 1
 	ld [wIsTrainerBattle], a
-	ld a, OPP_SONY1
+	ld a, SONY1
 	ld [wCurOpponent], a
 	ld a, [wRivalStarter]
 	cp STARTER2

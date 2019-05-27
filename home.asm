@@ -2656,11 +2656,11 @@ DisplayListMenuIDLoop_Hack:
 
 PlayTrainerMusic::
 	ld a, [wEngagedTrainerClass]
-	cp OPP_SONY1
+	cp SONY1
 	ret z
-	cp OPP_SONY2
+	cp SONY2
 	ret z
-	cp OPP_SONY3
+	cp SONY3
 	ret z
 	ld a, [wGymLeaderNo]
 	and a

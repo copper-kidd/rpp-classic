@@ -14,7 +14,7 @@ Mansion1Object:
 	db $0 ; signs
 
 	db $3 ; objects
-	object SPRITE_FLANNERY, $11, $11, STAY, LEFT, $1, OPP_PKMN_TRAINER, $1
+	object SPRITE_FLANNERY, $11, $11, STAY, LEFT, $1, PKMN_TRAINER, $1
 	object SPRITE_BALL, $e, $3, STAY, NONE, $2, ESCAPE_ROPE
 	object SPRITE_BALL, $12, $15, STAY, NONE, $3, CARBOS
 
