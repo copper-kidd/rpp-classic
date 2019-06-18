@@ -28,6 +28,7 @@ StartMenu_Pokemon:
 	call RestoreScreenTilesAndReloadTilePatterns
     call ReloadMapData
 	call LoadGBPal
+	call ReloadMapData
 	jp RedisplayStartMenu
 .chosePokemon
 	call SaveScreenTilesToBuffer1
@@ -547,6 +548,7 @@ StartMenu_TrainerInfo:
 	call WaitForTextScrollButtonPress ; wait for button press
 	call GBPalWhiteOut
 	call LoadFontTilePatterns
+	call LoadTextBoxTilePatterns
 	call LoadScreenTilesFromBuffer2 ; restore saved screen
 	call RunDefaultPaletteCommand
 	call ReloadMapData

@@ -307,11 +307,9 @@ PlayShootingStar:
 	ld [wWholeScreenPaletteMonSpecies],a
 	ld b, SET_PAL_POKEMON_WHOLE_SCREEN
 	call RunPaletteCommand
-	callba LoadMateoPresentsScreen
+	callba LoadVBAWarning
 	ld a, %11100100
 	ld [rBGP], a
-	ld c, 180
-	call DelayFrames
 ; clear the screen and get ready to show the original stuff properly
 	call GBPalWhiteOut ; addded
 	call ClearScreen

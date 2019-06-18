@@ -3155,15 +3155,15 @@ LoadTextBoxTilePatterns::
 	bit 7, a ; is the LCD enabled?
 	jr nz, .on
 .off
-	ld hl, TextBoxGraphics
-	ld de, vChars2 + $600
-	ld bc, TextBoxGraphicsEnd - TextBoxGraphics
+	ld hl, TextBoxGraphics + $190
+	ld de, vChars2 + $790
+	ld bc, 7
 	ld a, BANK(TextBoxGraphics)
 	jp FarCopyData2 ; if LCD is off, transfer all at once
 .on
-	ld de, TextBoxGraphics
-	ld hl, vChars2 + $600
-	lb bc, BANK(TextBoxGraphics), (TextBoxGraphicsEnd - TextBoxGraphics) / $10
+	ld de, TextBoxGraphics + $190
+	ld hl, vChars2 + $790
+	lb bc, BANK(TextBoxGraphics), 7
 	jp CopyVideoData ; if LCD is on, transfer during V-blank
 
 ; copies HP bar and status display tile patterns into VRAM

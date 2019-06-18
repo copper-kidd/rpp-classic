@@ -69,7 +69,7 @@ LoadTilesetPalette:
 	cp $00
 	jr z,.doneMultiplication
 	ld c,a
-	ld de,$0060	; Each palette assignment takes $60 bytes
+	ld de,$0080	; Each palette assignment takes $80 bytes
 .addLoop
 	add hl,de
 	dec c
@@ -80,7 +80,7 @@ LoadTilesetPalette:
 	push hl
 	pop de ; de points to MapPaletteAssignments
 	ld hl, W2_TilesetPaletteMap
-	ld b,$60
+	ld b,$80
 .copyLoop
 	ld a,[de]
 	inc de
@@ -89,13 +89,13 @@ LoadTilesetPalette:
 	jr nz,.copyLoop
 
 	; HAX: set route gate roofs (outside the tileset) to GRAY
-	xor a ; GRAY
-	rept 8
-	ld [hli], a
-	endr
+;	xor a ; GRAY
+;	rept 8
+;	ld [hli], a
+;	endr
 
 	; Set the remaining values to CRYS_TEXTBOX for text
-	ld b,$98 ;a0 - 8
+	ld b,$80
 	ld a,7;CRYS_TEXTBOX
 .fillLoop
 	ld [hli],a
