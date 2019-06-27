@@ -54,7 +54,7 @@ ForestDoorTileIDs:
 	db 58,$00
 
 PokecenterDoorTileIDs:
-	db 87,94,$00
+	db $1A,$00
 
 HouseDoorTileIDs:
 	db 62,$00

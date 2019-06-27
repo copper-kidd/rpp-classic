@@ -38,7 +38,7 @@ RedsHouse2WarpTileIDs:
 MartWarpTileIDs:
 	db 80,82,86,$FF
 PokecenterWarpTileIDs:
-	db 87,94,$FF
+	db $1A,$5C,$5E,$FF
 ForestWarpTileIDs:
 	db 90,92,58,$FF
 OakTSWarpTileIDs:

@@ -98,8 +98,12 @@ BookshelfTileIDs:
 	db_tx_pre BookOrSculptureText
 	db GYM,		  29
 	db_tx_pre BookOrSculptureText
-	db POKECENTER,   41
-	db_tx_pre WonderTradeMachineText
+	db POKECENTER,   $62
+	db_tx_pre PokemonStuffText
+	db POKECENTER,   $72
+	db_tx_pre PokemonStuffText
+	db POKECENTER,   $74
+	db_tx_pre PokemonStuffText
 	db LOBBY,		22
 	db_tx_pre ElevatorText
 	db FERRY,		 4
