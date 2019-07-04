@@ -1,18 +1,18 @@
 MtMoonSquareObject:
 	db $2C ; border block
 
-	db $2 ; warps
-	db $b, $18, $4, MT_MOON_3
-	db $7, $11, $0, MT_MOON_SHOP
+	db 2 ; warps
+	warp 24, 11, 4, MT_MOON_3
+	warp 17, 7, 0, MT_MOON_SHOP
 
-	db $1 ; signs
-	db $9, $13, $4
+	db 1 ; signs
+	sign 19, 9, 4
 
-	db $3 ; people
-	db SPRITE_BERRY_TREE, $6 + 4, $16 + 4, $ff, $ff, $1 ; person
-	db SPRITE_BUG_CATCHER, $7 + 4, $7 + 4, $ff, $d3, $2 ; person
-	db SPRITE_LASS, $b + 4, $11 + 4, $ff, $d0, $3 ; person
+	db 3 ; people
+	object SPRITE_BERRY_TREE, 22, 6, STAY, NONE, 1 ; person
+	object SPRITE_BUG_CATCHER, 7, 7, STAY, LEFT, 2 ; person
+	object SPRITE_LASS, 17, 11, STAY, DOWN, 3 ; person
 
 	; warp-to
-	EVENT_DISP MT_MOON_SQUARE_WIDTH, $b, $18
-	EVENT_DISP MT_MOON_SQUARE_WIDTH, $7, $11
+	warp_to 24, 11, MT_MOON_SQUARE_WIDTH ; MT_MOON_3
+	warp_to 17,  7, MT_MOON_SQUARE_WIDTH ; MT_MOON_SHOP

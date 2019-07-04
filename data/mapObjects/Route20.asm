@@ -1,26 +1,26 @@
 Route20Object:
 	db $43 ; border block
 
-	db $2 ; warps
-	db $5, $30, $0, SEAFOAM_ISLANDS_1
-	db $9, $3a, $2, SEAFOAM_ISLANDS_1
+	db 2 ; warps
+	warp 48, 5, 0, SEAFOAM_ISLANDS_1
+	warp 58, 9, 2, SEAFOAM_ISLANDS_1
 
-	db $2 ; signs
-	db $7, $33, $b ; Route20Text11
-	db $b, $39, $c ; Route20Text12
+	db 2 ; signs
+	sign 51, 7, 11 ; Route20Text11
+	sign 57, 11, 12 ; Route20Text12
 
-	db $a ; objects
-	object SPRITE_SWIMMER, $57, $8, STAY, UP, $1, SWIMMER, $9
-	object SPRITE_SWIMMER_F, $44, $b, STAY, UP, $2, SWIMMER_F, $f
-	object SPRITE_SWIMMER_F, $2d, $a, STAY, DOWN, $3, SWIMMER_F, $6
-	object SPRITE_SWIMMER_F, $37, $e, STAY, RIGHT, $4, SWIMMER_F, $12
-	object SPRITE_SWIMMER, $26, $d, STAY, DOWN, $5, SWIMMER, $a
-	object SPRITE_SWIMMER, $57, $d, STAY, UP, $6, SWIMMER, $b
-	object SPRITE_BLACK_HAIR_BOY_1, $22, $9, STAY, UP, $7, BIRD_KEEPER, $b
-	object SPRITE_SWIMMER_F, $19, $7, STAY, UP, $8, SWIMMER_F, $7
-	object SPRITE_SWIMMER_F, $18, $c, STAY, DOWN, $9, SWIMMER_F, $11
-	object SPRITE_SWIMMER_F, $f, $8, STAY, UP, $a, SWIMMER_F, $8
+	db 10 ; objects
+	object SPRITE_SWIMMER, 87, 8, STAY, UP, 1, SWIMMER, 9
+	object SPRITE_SWIMMER_F, 68, 11, STAY, UP, 2, SWIMMER_F, 15
+	object SPRITE_SWIMMER_F, 45, 10, STAY, DOWN, 3, SWIMMER_F, 6
+	object SPRITE_SWIMMER_F, 55, 14, STAY, RIGHT, 4, SWIMMER_F, 18
+	object SPRITE_SWIMMER, 38, 13, STAY, DOWN, 5, SWIMMER, 10
+	object SPRITE_SWIMMER, 87, 13, STAY, UP, 6, SWIMMER, 11
+	object SPRITE_BLACK_HAIR_BOY_1, 34, 9, STAY, UP, 7, BIRD_KEEPER, 11
+	object SPRITE_SWIMMER_F, 25, 7, STAY, UP, 8, SWIMMER_F, 7
+	object SPRITE_SWIMMER_F, 24, 12, STAY, DOWN, 9, SWIMMER_F, 17
+	object SPRITE_SWIMMER_F, 15, 8, STAY, UP, 10, SWIMMER_F, 8
 
 	; warp-to
-	EVENT_DISP ROUTE_20_WIDTH, $5, $30 ; SEAFOAM_ISLANDS_1
-	EVENT_DISP ROUTE_20_WIDTH, $9, $3a ; SEAFOAM_ISLANDS_1
+	warp_to 48, 5, ROUTE_20_WIDTH ; SEAFOAM_ISLANDS_1F
+	warp_to 58, 9, ROUTE_20_WIDTH ; SEAFOAM_ISLANDS_1F

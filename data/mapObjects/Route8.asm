@@ -1,31 +1,31 @@
 Route8Object:
 	db $2c ; border block
 
-	db $5 ; warps
-	db $9, $1, $0, ROUTE_8_GATE
-	db $a, $1, $1, ROUTE_8_GATE
-	db $9, $8, $2, ROUTE_8_GATE
-	db $a, $8, $3, ROUTE_8_GATE
-	db $3, $d, $0, PATH_ENTRANCE_ROUTE_8
+	db 5 ; warps
+	warp 1, 9, 0, ROUTE_8_GATE
+	warp 1, 10, 1, ROUTE_8_GATE
+	warp 8, 9, 2, ROUTE_8_GATE
+	warp 8, 10, 3, ROUTE_8_GATE
+	warp 13, 3, 0, PATH_ENTRANCE_ROUTE_8
 
-	db $1 ; signs
-	db $3, $11, $b ; Route8Text10
+	db 1 ; signs
+	sign 17, 3, 11 ; Route8Text10
 
-	db $A ; objects
-	object SPRITE_BLACK_HAIR_BOY_2, $8, $5, STAY, RIGHT, $1, SUPER_NERD, $3
-	object SPRITE_GAMBLER, $d, $9, STAY, UP, $2, GAMBLER, $5
-	object SPRITE_BLACK_HAIR_BOY_2, $2a, $6, STAY, UP, $3, SUPER_NERD, $4
-	object SPRITE_LASS, $1a, $3, STAY, LEFT, $4, LASS, $d
-	object SPRITE_BLACK_HAIR_BOY_2, $1a, $4, STAY, RIGHT, $5, SUPER_NERD, $5
-	object SPRITE_LASS, $1a, $5, STAY, LEFT, $6, LASS, $e
-	object SPRITE_LASS, $1a, $6, STAY, RIGHT, $7, LASS, $f
-	object SPRITE_GAMBLER, $2e, $d, STAY, DOWN, $8, GAMBLER, $7
-	object SPRITE_LASS, $33, $c, STAY, LEFT, $9, LASS, $10
-	object SPRITE_BERRY_TREE, $a, $d, STAY, NONE, $a
+	db 10 ; objects
+	object SPRITE_BLACK_HAIR_BOY_2, 8, 5, STAY, RIGHT, 1, SUPER_NERD, 3
+	object SPRITE_GAMBLER, 13, 9, STAY, UP, 2, GAMBLER, 5
+	object SPRITE_BLACK_HAIR_BOY_2, 42, 6, STAY, UP, 3, SUPER_NERD, 4
+	object SPRITE_LASS, 26, 3, STAY, LEFT, 4, LASS, 13
+	object SPRITE_BLACK_HAIR_BOY_2, 26, 4, STAY, RIGHT, 5, SUPER_NERD, 5
+	object SPRITE_LASS, 26, 5, STAY, LEFT, 6, LASS, 14
+	object SPRITE_LASS, 26, 6, STAY, RIGHT, 7, LASS, 15
+	object SPRITE_GAMBLER, 46, 13, STAY, DOWN, 8, GAMBLER, 7
+	object SPRITE_LASS, 51, 12, STAY, LEFT, 9, LASS, 16
+	object SPRITE_BERRY_TREE, 10, 13, STAY, NONE, 10
 
 	; warp-to
-	EVENT_DISP ROUTE_8_WIDTH, $9, $1 ; ROUTE_8_GATE
-	EVENT_DISP ROUTE_8_WIDTH, $a, $1 ; ROUTE_8_GATE
-	EVENT_DISP ROUTE_8_WIDTH, $9, $8 ; ROUTE_8_GATE
-	EVENT_DISP ROUTE_8_WIDTH, $a, $8 ; ROUTE_8_GATE
-	EVENT_DISP ROUTE_8_WIDTH, $3, $d ; PATH_ENTRANCE_ROUTE_8
+	warp_to 1, 9, ROUTE_8_WIDTH ; ROUTE_8_GATE
+	warp_to 1, 10, ROUTE_8_WIDTH ; ROUTE_8_GATE
+	warp_to 8, 9, ROUTE_8_WIDTH ; ROUTE_8_GATE
+	warp_to 8, 10, ROUTE_8_WIDTH ; ROUTE_8_GATE
+	warp_to 13, 3, ROUTE_8_WIDTH ; UNDERGROUND_PATH_ROUTE_8
