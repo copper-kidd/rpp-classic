@@ -40,8 +40,7 @@ DoorTileIDPointers:
 	dbw LAB,          LabDoorTileIDs
 	dbw FACILITY,     FacilityDoorTileIDs
 	dbw PLATEAU,      PlateauDoorTileIDs
-	dbw REDS_HOUSE_1, RedsHouseDoorTileIDs
-	dbw REDS_HOUSE_2, RedsHouseDoorTileIDs
+	dbw REDS_HOUSE,   RedsHouseDoorTileIDs
 	dbw MART,         MartDoorTileIDs
 	dbw FERRY,        FerryDoorTileIDs
 	dbw MUSEUM_2,     TilesetMuseumDoorTileIDs

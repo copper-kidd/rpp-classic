@@ -4,11 +4,9 @@
 ; Each row of entries corresponds to a row of tiles on the tileset image
 MapPaletteAssignments:
 INCLUDE "color/tilesets/overworld.asm" ; OVERWORLD
-INCLUDE "color/tilesets/reds_house.asm" ; REDS_HOUSE_1
+INCLUDE "color/tilesets/reds_house.asm" ; REDS_HOUSE
 INCLUDE "color/tilesets/mart.asm" ; MART
 INCLUDE "color/tilesets/forest.asm" ; FOREST
-INCLUDE "color/tilesets/reds_house.asm" ; REDS_HOUSE_2
-INCLUDE "color/tilesets/oakts.asm" ; OAK_TS
 INCLUDE "color/tilesets/pokecenter.asm" ; POKECENTER
 INCLUDE "color/tilesets/gym.asm" ; GYM
 INCLUDE "color/tilesets/house.asm" ; HOUSE

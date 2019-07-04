@@ -1902,11 +1902,9 @@ INCLUDE "engine/hidden_object_functions18.asm"
 
 SECTION "bank19",ROMX,BANK[$19]
 
-RedsHouse1_GFX:
-RedsHouse2_GFX:    INCBIN "gfx/tilesets/reds_house.2bpp"
-RedsHouse1_Block:
-RedsHouse2_Block:  INCBIN "gfx/blocksets/reds_house.bst"
 
+RedsHouse_GFX:     INCBIN "gfx/tilesets/reds_house.2bpp"
+RedsHouse_Block:   INCBIN "gfx/blocksets/reds_house.bst"
 House_GFX:         INCBIN "gfx/tilesets/house.2bpp"
 House_Block:       INCBIN "gfx/blocksets/house.bst"
 Mansion_GFX:       INCBIN "gfx/tilesets/mansion.2bpp"
@@ -1926,9 +1924,6 @@ INCLUDE "engine/battle/decrement_pp.asm"
 
 Version_GFX:       INCBIN "gfx/red/redgreenversion.1bpp" ; 10 tiles
 Version_GFXEnd:
-
-OakTS_GFX:         INCBIN "gfx/tilesets/oakts.2bpp"
-OakTS_Block:       INCBIN "gfx/blocksets/oakts.bst"
 
 Gym_GFX:           INCBIN "gfx/tilesets/gym.2bpp"
 Gym_Block:         INCBIN "gfx/blocksets/gym.bst"

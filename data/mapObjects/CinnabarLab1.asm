@@ -1,5 +1,5 @@
 Lab1Object:
-	db $A ; border block
+	db $17 ; border block
 
 	db 5 ; warps
 	warp 2, 7, 2, LAST_MAP

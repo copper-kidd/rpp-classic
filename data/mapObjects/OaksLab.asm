@@ -1,5 +1,5 @@
 OaksLabObject:
-	db $0 ; border block
+	db $3 ; border block
 
 	db 2 ; warps
 	warp 4, 11, 2, LAST_MAP

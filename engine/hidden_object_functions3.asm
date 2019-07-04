@@ -68,10 +68,6 @@ BookshelfTileIDs:
 	db_tx_pre PokemonStuffText
 	db MART,		 92
 	db_tx_pre PokemonStuffText
-	db OAK_TS,	   92
-	db_tx_pre BookOrSculptureText
-	db OAK_TS,	   94
-	db_tx_pre BookOrSculptureText
 	db MANSION,	  50
 	db_tx_pre BookOrSculptureText
 	db GATE,		 34
@@ -84,9 +80,9 @@ BookshelfTileIDs:
 	db_tx_pre MyReflectionText
 	db SHIP,		 54
 	db_tx_pre BookOrSculptureText
-	db REDS_HOUSE_1, 50
+	db REDS_HOUSE, 50
 	db_tx_pre BookOrSculptureText
-	db REDS_HOUSE_1, 61
+	db REDS_HOUSE, 61
 	db_tx_pre MyReflectionText
 	db PLATEAU,	  48
 	db_tx_pre IndigoPlateauStatues

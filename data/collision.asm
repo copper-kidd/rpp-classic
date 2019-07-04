@@ -1,10 +1,8 @@
 Underground_Coll::  INCLUDE  "gfx/tilesets/underground.asm"
 Overworld_Coll::    INCLUDE  "gfx/tilesets/overworld.asm"
-RedsHouse1_Coll::
-RedsHouse2_Coll::   INCLUDE  "gfx/tilesets/reds_house.asm"
+RedsHouse_Coll::    INCLUDE  "gfx/tilesets/reds_house.asm"
 Mart_Coll::         INCLUDE  "gfx/tilesets/mart.asm"
 Pokecenter_Coll::   INCLUDE  "gfx/tilesets/pokecenter.asm"
-OakTS_Coll::        INCLUDE  "gfx/tilesets/oakts.asm"
 Gym_Coll::          INCLUDE  "gfx/tilesets/gym.asm"
 Safari_Coll::
 Forest_Coll::       INCLUDE  "gfx/tilesets/forest.asm"
