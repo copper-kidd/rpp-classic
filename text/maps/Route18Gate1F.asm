@@ -14,6 +14,10 @@ _Route18GateText_49932::
 	done
 
 _Route19GateText1::
-	text "I love working by"
-	line "the beach here."
+	text "My cousin's out"
+	line "catching Dragon"
+	cont "types, and what"
+	cont "do I get?"
+
+	para "Guard duty..."
 	done
