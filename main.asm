@@ -1907,15 +1907,15 @@ RedsHouse2_GFX:    INCBIN "gfx/tilesets/reds_house.2bpp"
 RedsHouse1_Block:
 RedsHouse2_Block:  INCBIN "gfx/blocksets/reds_house.bst"
 
-House_GFX:         INCBIN "gfx/tilesets/house.t2.2bpp"
+House_GFX:         INCBIN "gfx/tilesets/house.2bpp"
 House_Block:       INCBIN "gfx/blocksets/house.bst"
-Mansion_GFX:       INCBIN "gfx/tilesets/mansion.t2.2bpp"
+Mansion_GFX:       INCBIN "gfx/tilesets/mansion.2bpp"
 Mansion_Block:     INCBIN "gfx/blocksets/mansion.bst"
-ShipPort_GFX:      INCBIN "gfx/tilesets/ship_port.t2.2bpp"
+ShipPort_GFX:      INCBIN "gfx/tilesets/ship_port.2bpp"
 ShipPort_Block:    INCBIN "gfx/blocksets/ship_port.bst"
-Interior_GFX:      INCBIN "gfx/tilesets/interior.t1.2bpp"
+Interior_GFX:      INCBIN "gfx/tilesets/interior.2bpp"
 Interior_Block:    INCBIN "gfx/blocksets/interior.bst"
-Plateau_GFX:       INCBIN "gfx/tilesets/plateau.t6.2bpp"
+Plateau_GFX:       INCBIN "gfx/tilesets/plateau.2bpp"
 Plateau_Block:     INCBIN "gfx/blocksets/plateau.bst"
 
 INCLUDE "engine/battle/get_trainer_pic_pointers.asm"
@@ -1936,7 +1936,7 @@ Gym_Block:         INCBIN "gfx/blocksets/gym.bst"
 Pokecenter_GFX:    INCBIN "gfx/tilesets/pokecenter.2bpp"
 Pokecenter_Block:  INCBIN "gfx/blocksets/pokecenter.bst"
 
-Gate_GFX:          INCBIN "gfx/tilesets/gate.t1.2bpp"
+Gate_GFX:          INCBIN "gfx/tilesets/gate.2bpp"
 Gate_Block:        INCBIN "gfx/blocksets/gate.bst"
 
 Facility_GFX:      INCBIN "gfx/tilesets/facility.2bpp"
@@ -1945,17 +1945,17 @@ Facility_Block:    INCBIN "gfx/blocksets/facility.bst"
 
 SECTION "bank1B",ROMX,BANK[$1B]
 
-Cemetery_GFX:      INCBIN "gfx/tilesets/cemetery.t4.2bpp"
+Cemetery_GFX:      INCBIN "gfx/tilesets/cemetery.2bpp"
 Cemetery_Block:    INCBIN "gfx/blocksets/cemetery.bst"
-Lobby_GFX:         INCBIN "gfx/tilesets/lobby.t2.2bpp"
+Lobby_GFX:         INCBIN "gfx/tilesets/lobby.2bpp"
 Lobby_Block:       INCBIN "gfx/blocksets/lobby.bst"
-Ship_GFX:          INCBIN "gfx/tilesets/ship.t6.2bpp"
+Ship_GFX:          INCBIN "gfx/tilesets/ship.2bpp"
 Ship_Block:        INCBIN "gfx/blocksets/ship.bst"
-Lab_GFX:           INCBIN "gfx/tilesets/lab.t4.2bpp"
+Lab_GFX:           INCBIN "gfx/tilesets/lab.2bpp"
 Lab_Block:         INCBIN "gfx/blocksets/lab.bst"
-Club_GFX:          INCBIN "gfx/tilesets/club.t5.2bpp"
+Club_GFX:          INCBIN "gfx/tilesets/club.2bpp"
 Club_Block:        INCBIN "gfx/blocksets/club.bst"
-Underground_GFX:   INCBIN "gfx/tilesets/underground.t7.2bpp"
+Underground_GFX:   INCBIN "gfx/tilesets/underground.2bpp"
 Underground_Block: INCBIN "gfx/blocksets/underground.bst"
 
 
@@ -2555,8 +2555,8 @@ Overworld_Block:     INCBIN "gfx/blocksets/overworld.bst"
 Ferry_GFX:    INCBIN "gfx/tilesets/ferry.2bpp"
 Ferry_Block:  INCBIN "gfx/blocksets/ferry.bst"
 
-Ice_Cavern_GFX:    INCBIN "gfx/tilesets/ice_cavern.t14.2bpp"
-Cavern_GFX:        INCBIN "gfx/tilesets/cavern.t14.2bpp"
+Ice_Cavern_GFX:    INCBIN "gfx/tilesets/ice_cavern.2bpp"
+Cavern_GFX:        INCBIN "gfx/tilesets/cavern.2bpp"
 Cavern_Block:      INCBIN "gfx/blocksets/cavern.bst"
 
 
