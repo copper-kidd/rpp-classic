@@ -21,7 +21,7 @@ WarpTileIDPointers:
 	dw ClubWarpTileIDs
 	dw FacilityWarpTileIDs
 	dw PlateauWarpTileIDs
-	dw ForestWarpTileIDs
+	dw SafariWarpTileIDs
 	dw FerryWarpTileIDs
 	dw CavernWarpTileIDs
 	dw MuseumWarpTileIDs
@@ -69,3 +69,5 @@ FerryWarpTileIDs:
 	db 16,48,$FF
 MuseumWarpTileIDs:
 	db $16,$1E,$FF
+SafariWarpTileIDs:
+	db $3A,$5C,$FF

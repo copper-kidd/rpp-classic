@@ -11,7 +11,7 @@ SafariZoneEntranceObject:
 
 	db 2 ; objects
 	object SPRITE_WHITE_PLAYER, 6, 2, STAY, LEFT, 1 ; person
-	object SPRITE_WHITE_PLAYER, 1, 4, STAY, RIGHT, 2 ; person
+	object SPRITE_WHITE_PLAYER,  1,  3, STAY, RIGHT, 2 ; person
 
 	; warp-to
 	warp_to 3, 5, SAFARI_ZONE_ENTRANCE_WIDTH

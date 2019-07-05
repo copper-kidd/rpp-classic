@@ -21,7 +21,7 @@ Tilesets:
 	tileset Club_Block,        Club_GFX,        Club_Coll,        $07,$17,$FF, $FF, INDOOR
 	tileset Facility_Block,    Facility_GFX,    Facility_Coll,    $12,$FF,$FF, $FF, CAVE
 	tileset Plateau_Block,     Plateau_GFX,     Plateau_Coll,     $FF,$FF,$FF, $45, CAVE
-	tileset Safari_Block,      Safari_GFX,      Safari_Coll,      $FF,$FF,$FF, $20, CAVE
+	tileset Safari_Block,      Safari_GFX,      Safari_Coll,      $FF,$FF,$FF, $5A, CAVE
 	tileset Ferry_Block,       Ferry_GFX,       Ferry_Coll,       255,255,255, 19, OUTDOOR
 	tileset Cavern_Block,      Ice_Cavern_GFX,  Cavern_Coll,      $FF,$FF,$FF, $FF, CAVE
 	tileset Museum2_Block,     Museum2_GFX,     Museum_Coll,	  64,81,255, 255, 0
