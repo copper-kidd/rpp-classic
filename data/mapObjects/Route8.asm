@@ -2,10 +2,10 @@ Route8Object:
 	db $2c ; border block
 
 	db 5 ; warps
-	warp 1, 9, 0, ROUTE_8_GATE
-	warp 1, 10, 1, ROUTE_8_GATE
-	warp 8, 9, 2, ROUTE_8_GATE
-	warp 8, 10, 3, ROUTE_8_GATE
+	warp  1, 10, 0, ROUTE_8_GATE
+	warp  1, 11, 1, ROUTE_8_GATE
+	warp  8, 10, 2, ROUTE_8_GATE
+	warp  8, 11, 3, ROUTE_8_GATE
 	warp 13, 3, 0, PATH_ENTRANCE_ROUTE_8
 
 	db 1 ; signs
@@ -24,8 +24,8 @@ Route8Object:
 	object SPRITE_BERRY_TREE, 10, 13, STAY, NONE, 10
 
 	; warp-to
-	warp_to 1, 9, ROUTE_8_WIDTH ; ROUTE_8_GATE
-	warp_to 1, 10, ROUTE_8_WIDTH ; ROUTE_8_GATE
-	warp_to 8, 9, ROUTE_8_WIDTH ; ROUTE_8_GATE
-	warp_to 8, 10, ROUTE_8_WIDTH ; ROUTE_8_GATE
+	warp_to  1, 10, ROUTE_8_WIDTH ; ROUTE_8_GATE
+	warp_to  1, 11, ROUTE_8_WIDTH ; ROUTE_8_GATE
+	warp_to  8, 10, ROUTE_8_WIDTH ; ROUTE_8_GATE
+	warp_to  8, 11, ROUTE_8_WIDTH ; ROUTE_8_GATE
 	warp_to 13, 3, ROUTE_8_WIDTH ; UNDERGROUND_PATH_ROUTE_8
