@@ -3,9 +3,9 @@ Route2GateObject:
 
 	db 4 ; warps
 	warp 4, 0, 3, LAST_MAP
-	warp 5, 0, 3, LAST_MAP
-	warp 4, 7, 4, LAST_MAP
-	warp 5, 7, 4, LAST_MAP
+	warp 5, 0, 4, LAST_MAP
+	warp 4, 7, 5, LAST_MAP
+	warp 5, 7, 5, LAST_MAP
 
 	db 0 ; signs
 

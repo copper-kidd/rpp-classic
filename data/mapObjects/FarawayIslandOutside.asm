@@ -7,7 +7,7 @@ FarawayIslandOutsideObject:
 	warp 23,  7, 1, FARAWAY_ISLAND_INSIDE
 
 	db 1 ; signs
-	sign 32, 3, 3 ; FarawayIslandSignText
+	sign  3, 32, 3 ; FarawayIslandSignText
 
 	db 2 ; people
 	object SPRITE_SAILOR, 13, 39, STAY, UP, 1 ; person
