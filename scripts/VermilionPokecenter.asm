@@ -8,6 +8,7 @@ VermilionPokecenterTextPointers:
 	dw VermilionPokecenterText3
 	dw VermilionTradeNurseText
 	dw VermilionCityPokecenterBenchGuyText
+	dw VermilionWonderTradeText
 
 VermilionHealNurseText:
 	TX_POKECENTER_NURSE
@@ -26,3 +27,8 @@ VermilionTradeNurseText:
 VermilionCityPokecenterBenchGuyText:
 	TX_FAR _VermilionPokecenterGuyText
 	db "@"
+
+VermilionWonderTradeText:
+	TX_ASM
+	callba DoWonderTradeDialogue
+	jp TextScriptEnd

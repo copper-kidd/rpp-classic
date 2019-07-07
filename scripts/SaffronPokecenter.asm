@@ -8,6 +8,7 @@ SaffronPokecenterTextPointers:
 	dw SaffronPokecenterText3
 	dw SaffronTradeNurseText
 	dw SaffronCityPokecenterBenchGuyText
+	dw SaffronWonderTradeText
 
 SaffronHealNurseText:
 	TX_POKECENTER_NURSE
@@ -40,3 +41,8 @@ SaffronCityPokecenterBenchGuyText1:
 SaffronCityPokecenterBenchGuyText2:
 	TX_FAR _SaffronCityPokecenterGuyText2
 	db "@"
+
+SaffronWonderTradeText:
+	TX_ASM
+	callba DoWonderTradeDialogue
+	jp TextScriptEnd

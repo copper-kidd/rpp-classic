@@ -8,6 +8,7 @@ CinnabarPokecenterTextPointers:
 	dw CinnabarPokecenterText3
 	dw CinnabarTradeNurseText
 	dw CinnabarIslandPokecenterBenchGuyText
+	dw CinnabarWonderTradeText
 
 CinnabarHealNurseText:
 	TX_POKECENTER_NURSE
@@ -26,3 +27,8 @@ CinnabarTradeNurseText:
 CinnabarIslandPokecenterBenchGuyText:
 	TX_FAR _CinnabarPokecenterGuyText
 	db "@"
+
+CinnabarWonderTradeText:
+	TX_ASM
+	callba DoWonderTradeDialogue
+	jp TextScriptEnd

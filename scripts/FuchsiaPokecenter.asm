@@ -8,6 +8,7 @@ FuchsiaPokecenterTextPointers:
 	dw FuchsiaPokecenterText3
 	dw FuchsiaTradeNurseText
 	dw FuchsiaCityPokecenterBenchGuyText
+	dw FuchsiaWonderTradeText
 
 FuchsiaHealNurseText:
 	TX_POKECENTER_NURSE
@@ -26,3 +27,8 @@ FuchsiaTradeNurseText:
 FuchsiaCityPokecenterBenchGuyText:
 	TX_FAR _FuchsiaCityPokecenterGuyText
 	db "@"
+
+FuchsiaWonderTradeText:
+	TX_ASM
+	callba DoWonderTradeDialogue
+	jp TextScriptEnd

@@ -8,6 +8,7 @@ RockTunnelPokecenterTextPointers:
 	dw RockTunnelPokecenterText3
 	dw RockTunnelTradeNurseText
 	dw RockTunnelPokecenterBenchGuyText
+	dw RockTunnelWonderTradeText
 
 RockTunnelHealNurseText:
 	TX_POKECENTER_NURSE
@@ -26,3 +27,8 @@ RockTunnelTradeNurseText:
 RockTunnelPokecenterBenchGuyText:
 	TX_FAR _RockTunnelPokecenterGuyText
 	db "@"
+
+RockTunnelWonderTradeText:
+	TX_ASM
+	callba DoWonderTradeDialogue
+	jp TextScriptEnd

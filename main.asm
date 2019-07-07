@@ -127,7 +127,7 @@ INCLUDE "engine/init_player_data.asm"
 INCLUDE "engine/get_bag_item_quantity.asm"
 INCLUDE "engine/pathfinding.asm"
 INCLUDE "engine/hp_bar.asm"
-INCLUDE "engine/hidden_object_functions3.asm"
+INCLUDE "engine/bookshelf_tiles.asm"
 
 INCLUDE "color/update_hp_bar.asm"
 

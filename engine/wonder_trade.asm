@@ -528,7 +528,7 @@ WonderConnectCableText:
 	db "@"
 
 WelcomeToGlobalText:
-	text "Connecting to the"
+	text "Welcome to the"
 	line "Global Terminal.@@"
 
 BeingAdjustedText:
@@ -551,7 +551,7 @@ CompletedWonderTradeText:
 	line "a Wonder Trade!@@"
 	
 BannedMonText:
-	text "Error! That"
+	text "Sorry! That"
 	line "#mon is not"
 	cont "allowed."
 	

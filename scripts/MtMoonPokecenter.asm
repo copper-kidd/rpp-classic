@@ -10,6 +10,7 @@ MtMoonPokecenterTextPointers:
 	dw MtMoonPokecenterText5
 	dw MtMoonTradeNurseText
 	dw MtMoonPokecenterBenchGuyText
+	dw MtMoonWonderTradeText
 
 MtMoonHealNurseText:
 	TX_POKECENTER_NURSE
@@ -103,3 +104,8 @@ MtMoonTradeNurseText:
 MtMoonPokecenterBenchGuyText:
 	TX_FAR _MtMoonPokecenterBenchGuyText
 	db "@"
+
+MtMoonWonderTradeText:
+	TX_ASM
+	callba DoWonderTradeDialogue
+	jp TextScriptEnd

@@ -8,6 +8,7 @@ PewterPokecenterTextPointers:
 	dw PewterJigglypuffText
 	dw PewterTradeNurseText
 	dw PewterCityPokecenterBenchGuyText
+	dw PewterWonderTradeText
 
 PewterHealNurseText:
 	TX_POKECENTER_NURSE
@@ -86,3 +87,8 @@ PewterTradeNurseText:
 PewterCityPokecenterBenchGuyText:
 	TX_FAR _PewterCityPokecenterGuyText
 	db "@"
+
+PewterWonderTradeText:
+	TX_ASM
+	callba DoWonderTradeDialogue
+	jp TextScriptEnd

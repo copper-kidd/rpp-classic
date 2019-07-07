@@ -8,6 +8,7 @@ CeladonPokecenterTextPointers:
 	dw CeladonPokecenterText3
 	dw CeladonTradeNurseText
 	dw CeladonCityPokecenterBenchGuyText
+	dw CeladonWonderTradeText
 
 CeladonTradeNurseText:
 	TX_CABLE_CLUB_RECEPTIONIST
@@ -26,3 +27,8 @@ CeladonPokecenterText3:
 CeladonCityPokecenterBenchGuyText:
 	TX_FAR _CeladonCityPokecenterGuyText
 	db "@"
+
+CeladonWonderTradeText:
+	TX_ASM
+	callba DoWonderTradeDialogue
+	jp TextScriptEnd

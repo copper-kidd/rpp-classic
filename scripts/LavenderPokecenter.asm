@@ -8,6 +8,7 @@ LavenderPokecenterTextPointers:
 	dw LavenderPokecenterText3
 	dw LavenderTradeNurseText
 	dw LavenderCityPokecenterBenchGuyText
+	dw LavenderWonderTradeText
 
 LavenderTradeNurseText:
 	TX_CABLE_CLUB_RECEPTIONIST
@@ -26,3 +27,8 @@ LavenderPokecenterText3:
 LavenderCityPokecenterBenchGuyText:
 	TX_FAR _LavenderPokecenterGuyText
 	db "@"
+
+LavenderWonderTradeText:
+	TX_ASM
+	callba DoWonderTradeDialogue
+	jp TextScriptEnd

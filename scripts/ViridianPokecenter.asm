@@ -8,6 +8,7 @@ ViridianPokecenterTextPointers:
 	dw ViridianPokeCenterText3
 	dw ViridianTradeNurseText
 	dw ViridianCityPokecenterBenchGuyText
+	dw ViridianWonderTradeText
 
 ViridianHealNurseText:
 	TX_POKECENTER_NURSE
@@ -31,3 +32,8 @@ UnusedPokecenterBenchGuyText3:
 ViridianCityPokecenterBenchGuyText:
 	TX_FAR _ViridianCityPokecenterGuyText
 	db "@"
+
+ViridianWonderTradeText:
+	TX_ASM
+	callba DoWonderTradeDialogue
+	jp TextScriptEnd

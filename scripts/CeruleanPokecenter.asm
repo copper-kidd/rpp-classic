@@ -8,6 +8,7 @@ CeruleanPokecenterTextPointers:
 	dw CeruleanPokecenterText3
 	dw CeruleanTradeNurseText
 	dw CeruleanCityPokecenterBenchGuyText
+	dw CeruleanWonderTradeText
 
 CeruleanTradeNurseText:
 	TX_CABLE_CLUB_RECEPTIONIST
@@ -26,3 +27,8 @@ CeruleanPokecenterText3:
 CeruleanCityPokecenterBenchGuyText:
 	TX_FAR _CeruleanPokecenterGuyText
 	db "@"
+
+CeruleanWonderTradeText:
+	TX_ASM
+	callba DoWonderTradeDialogue
+	jp TextScriptEnd
