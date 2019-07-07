@@ -69,7 +69,7 @@ MapPalettes:
 	RGB 7,7,7
 
 ; 0x0b: INDOOR_GREEN
-	RGB 30,28,26
+	RGB 18,24,09
 	RGB 15,20,1
 	RGB 9,13,0
 	RGB 7,7,7
@@ -87,7 +87,7 @@ MapPalettes:
 	RGB 7,7,7
 
 ; 0x0e: INDOOR_BROWN
-	RGB 30,28,26
+	RGB 26,24,17
 	RGB 21,17,7
 	RGB 16,13,3
 	RGB 7,7,7
