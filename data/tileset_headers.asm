@@ -6,7 +6,7 @@ Tilesets:
 	tileset Pokecenter_Block,  Pokecenter_GFX,  Pokecenter_Coll,  $14,$6A,$70, $FF, INDOOR
 	tileset Gym_Block,         Gym_GFX,         Gym_Coll,         $3A,$FF,$FF, $FF, OUTDOOR
 	tileset House_Block,       House_GFX,       House_Coll,       54,255,255, 255, 0
-	tileset ForestGate_Block,  ForestGate_GFX,  ForestGate_Coll,  $17,$32,$FF, $FF, INDOOR
+	tileset PlayerRoom_Block,  PlayerRoom_GFX,  PlayerRoom_Coll,  $FF,$FF,$FF, $FF, INDOOR
 	tileset Museum_Block,      Museum_GFX,      Museum_Coll,      64,81,255, 255, 0
 	tileset Underground_Block, Underground_GFX, Underground_Coll, $FF,$FF,$FF, $FF, INDOOR
 	tileset Gate_Block,        Gate_GFX,        Gate_Coll,        69,52,255, 255, 0

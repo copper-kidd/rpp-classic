@@ -7,7 +7,7 @@ const_value = 0
 	const POKECENTER
 	const GYM
 	const HOUSE
-	const FOREST_GATE
+	const PLAYER_ROOM
 	const MUSEUM
 	const UNDERGROUND
 	const GATE

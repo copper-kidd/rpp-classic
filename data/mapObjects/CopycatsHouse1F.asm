@@ -1,10 +1,10 @@
 CopycatsHouse1FObject:
-	db $a ; border block
+	db $0 ; border block
 
 	db 3 ; warps
 	warp 2, 7, 0, LAST_MAP
 	warp 3, 7, 0, LAST_MAP
-	warp 7, 1, 0, COPYCATS_HOUSE_2F
+	warp  7,  0, 0, COPYCATS_HOUSE_2F
 
 	db 0 ; signs
 
@@ -16,4 +16,4 @@ CopycatsHouse1FObject:
 	; warp-to
 	warp_to 2, 7, COPYCATS_HOUSE_1F_WIDTH
 	warp_to 3, 7, COPYCATS_HOUSE_1F_WIDTH
-	warp_to 7, 1, COPYCATS_HOUSE_1F_WIDTH ; COPYCATS_HOUSE_2F
+	warp_to  7,  0, COPYCATS_HOUSE_1F_WIDTH ; COPYCATS_HOUSE_2F

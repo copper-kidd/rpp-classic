@@ -1,10 +1,13 @@
 RedsHouse2FObject:
-	db $0A ; border block
+	db $0 ; border block
 
 	db 1 ; warps
 	warp 7, 0, 2, REDS_HOUSE_1F
 
-	db 0 ; signs
+	db 3 ; signs
+	sign  2,  1,1 ; PC
+	sign  3,  1,2 ; Radio
+	sign  4,  2,3 ; Game
 
 	db 0 ; objects
 

@@ -36,8 +36,8 @@ DungeonWarpData:
 ;	db Tileset_id
 FirstMapSpec:
 	db REDS_HOUSE_2F
-	FLYWARP_DATA REDS_HOUSE_2F_WIDTH,6,3
-	db REDS_HOUSE
+	FLYWARP_DATA REDS_HOUSE_2F_WIDTH,3,4
+	db PLAYER_ROOM
 
 TradeCenterSpec1:
 	db TRADE_CENTER

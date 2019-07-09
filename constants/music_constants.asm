@@ -96,7 +96,6 @@ const_value = 1
 	const MUSIC_ABANDONED_SHIP
 	const MUSIC_LAKE_OF_RAGE
 
-
 const_value = 1
 	; AUDIO_1 AUDIO_3
 	const SFX_GET_ITEM_1

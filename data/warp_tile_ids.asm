@@ -6,7 +6,7 @@ WarpTileIDPointers:
 	dw PokecenterWarpTileIDs
 	dw GymWarpTileIDs
 	dw HouseWarpTileIDs
-	dw ForestGateWarpTileIDs
+	dw PlayerRoomWarpTileIDs
 	dw MuseumWarpTileIDs
 	dw UndergroundWarpTileIDs
 	dw GateWarpTileIDs
@@ -27,11 +27,10 @@ WarpTileIDPointers:
 	dw MuseumWarpTileIDs
 OverworldWarpTileIDs:
 	db 27,88,$FF
-ForestGateWarpTileIDs:
 GateWarpTileIDs:
 	db 22,26,28,59,$FF
 RedsHouseWarpTileIDs:
-	db 26,28,$FF
+	db $5C,$5E,$FF
 MartWarpTileIDs:
 	db 80,82,86,$FF
 PokecenterWarpTileIDs:
@@ -71,3 +70,5 @@ MuseumWarpTileIDs:
 	db $16,$1E,$FF
 SafariWarpTileIDs:
 	db $3A,$5C,$FF
+PlayerRoomWarpTileIDs:
+	db $50,$FF

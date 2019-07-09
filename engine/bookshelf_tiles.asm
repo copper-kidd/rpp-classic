@@ -70,10 +70,22 @@ BookshelfTileIDs:
 	db_tx_pre MyReflectionText
 	db SHIP,		 54
 	db_tx_pre BookOrSculptureText
-	db REDS_HOUSE, 50
+	db REDS_HOUSE, $3E
 	db_tx_pre BookOrSculptureText
-	db REDS_HOUSE, 61
+	db REDS_HOUSE, $41
 	db_tx_pre MyReflectionText
+	db PLAYER_ROOM, $35
+	db_tx_pre BookOrSculptureText
+	db PLAYER_ROOM, $54
+	db_tx_pre TownMapText
+	db PLAYER_ROOM, $1E
+	db_tx_pre CutePosterText
+	db PLAYER_ROOM, $3E
+	db_tx_pre CutePosterText
+	db PLAYER_ROOM, $5E
+	db_tx_pre CutePosterText
+	db PLAYER_ROOM, $74
+	db_tx_pre CutePosterText
 	db PLATEAU,	  48
 	db_tx_pre IndigoPlateauStatues
 	db HOUSE,		33
@@ -177,3 +189,8 @@ PokemonStuffText:
 MyReflectionText:
 	TX_FAR _MyReflectionText
 	db "@"
+
+CutePosterText:
+	text "What a cute"
+	line "poster!"
+	done

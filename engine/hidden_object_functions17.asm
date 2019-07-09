@@ -1,18 +1,3 @@
-PrintRedSNESText:
-	call EnableAutoTextBoxDrawing
-	tx_pre_jump RedBedroomSNESText
-
-RedBedroomSNESText:
-	TX_FAR _RedBedroomSNESText
-	db "@"
-
-OpenRedsPC:
-	call EnableAutoTextBoxDrawing
-	tx_pre_jump RedBedroomPCText
-
-RedBedroomPCText:
-	TX_PLAYERS_PC
-
 Route15GateLeftBinoculars:
 	ld a, [wSpriteStateData1 + 9]
 	cp SPRITE_FACING_UP

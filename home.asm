@@ -4743,8 +4743,8 @@ const_value = 1
 
 	add_tx_pre CardKeySuccessText                   ; 01
 	add_tx_pre CardKeyFailText                      ; 02
-	add_tx_pre RedBedroomPCText                     ; 03
-	add_tx_pre RedBedroomSNESText                   ; 04
+	add_tx_pre RedsHouse2FPC                        ; 03 XXX unused
+	add_tx_pre RedsHouse2FGame                      ; 04 XXX unused
 	add_tx_pre PushStartText                        ; 05
 	add_tx_pre SaveOptionText                       ; 06
 	add_tx_pre StrengthsAndWeaknessesText           ; 07
@@ -4768,7 +4768,7 @@ const_value = 1
 	add_tx_pre MtMoonPokecenterBenchGuyText         ; 19
 	add_tx_pre RockTunnelPokecenterBenchGuyText     ; 1A
 	add_tx_pre MyReflectionText                     ; 1B
-	add_tx_pre UnusedPokecenterBenchGuyText2        ; 1C XXX unused
+	add_tx_pre CutePosterText                       ; 1C
 	add_tx_pre UnusedPokecenterBenchGuyText3        ; 1D XXX unused
 	add_tx_pre UnusedPredefText                     ; 1E XXX unused
 	add_tx_pre PokemonCenterPCText                  ; 1F

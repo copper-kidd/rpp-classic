@@ -1659,7 +1659,7 @@ LavenderMartBlocks:
 CeruleanMartBlocks:
 VermilionMartBlocks: INCBIN "maps/VermilionMart.blk"
 
-CopycatsHouse2FBlocks:
+CopycatsHouse2FBlocks: INCBIN "maps/CopycatsHouse2F.blk"
 RedsHouse2FBlocks: INCBIN "maps/RedsHouse2F.blk"
 
 Museum1FBlocks: INCBIN "maps/Museum1F.blk"
@@ -2590,8 +2590,8 @@ JamesPic::       INCBIN "pic/trainer/james.pic"
 YoungCouplePic:: INCBIN "pic/trainer/young_couple.pic"
 FlanneryPic::    INCBIN "pic/trainer/flannery.pic"
 
-ForestGate_GFX:      INCBIN "gfx/tilesets/forest_gate.2bpp"
-ForestGate_Block:    INCBIN "gfx/blocksets/forest_gate.bst"
+PlayerRoom_GFX:      INCBIN "gfx/tilesets/player_room.2bpp"
+PlayerRoom_Block:    INCBIN "gfx/blocksets/player_room.bst"
 
 
 SECTION "random stuff", ROMX,BANK[$3A]

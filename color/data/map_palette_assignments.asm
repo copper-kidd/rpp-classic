@@ -10,7 +10,7 @@ INCLUDE "color/tilesets/forest.asm" ; FOREST
 INCLUDE "color/tilesets/pokecenter.asm" ; POKECENTER
 INCLUDE "color/tilesets/gym.asm" ; GYM
 INCLUDE "color/tilesets/house.asm" ; HOUSE
-INCLUDE "color/tilesets/forest_gate.asm" ; FOREST_GATE
+INCLUDE "color/tilesets/player_room.asm" ; PLAYER_ROOM
 INCLUDE "color/tilesets/museum.asm" ; MUSEUM
 INCLUDE "color/tilesets/underground.asm" ; UNDERGROUND
 INCLUDE "color/tilesets/gate.asm" ; GATE
