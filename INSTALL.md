@@ -8,8 +8,8 @@
 	sudo make install
 	cd ..
 
-	git clone --recursive git://github.com/TheFakeMateo/rpp-backup.git
-	cd rpp-backup
+	git clone --recursive git://github.com/TheFakeMateo/rpp-classic.git
+	cd rpp-classic
 
 To build **pokered.gbc** and **pokeblue.gbc**:
 
@@ -30,8 +30,8 @@ Then in **Terminal**, run:
 	xcode-select --install
 	brew install rgbds
 
-	git clone --recursive git://github.com/TheFakeMateo/rpp-backup.git
-	cd rpp-backup
+	git clone --recursive git://github.com/TheFakeMateo/rpp-classic.git
+	cd rpp-classic
 
 	make
 
@@ -57,8 +57,8 @@ Extract the archive. Inside should be `rgbasm.exe`, `rgblink.exe`, `rgbfix.exe`,
 
 In the **Cygwin terminal**:
 
-	git clone --recursive https://github.com/TheFakeMateo/rpp-backup.git
-	cd rpp-backup
+	git clone --recursive https://github.com/TheFakeMateo/rpp-classic.git
+	cd rpp-classic
 
 	make
 	
