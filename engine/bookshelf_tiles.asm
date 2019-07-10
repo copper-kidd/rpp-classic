@@ -86,6 +86,8 @@ BookshelfTileIDs:
 	db_tx_pre CutePosterText
 	db PLAYER_ROOM, $74
 	db_tx_pre CutePosterText
+	db PLAYER_ROOM, $76
+	db_tx_pre MyReflectionText
 	db PLATEAU,	  48
 	db_tx_pre IndigoPlateauStatues
 	db HOUSE,		33

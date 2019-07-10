@@ -4,10 +4,9 @@ RedsHouse2FObject:
 	db 1 ; warps
 	warp 7, 0, 2, REDS_HOUSE_1F
 
-	db 3 ; signs
-	sign  2,  1,1 ; PC
-	sign  3,  1,2 ; Radio
-	sign  4,  2,3 ; Game
+	db 2 ; signs
+	sign  0,  1,1 ; PC
+	sign  3,  5,2 ; Game
 
 	db 0 ; objects
 

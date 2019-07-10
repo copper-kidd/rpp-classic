@@ -22,16 +22,10 @@ RedsHouse2FScript1:
 
 RedsHouse2FTextPointers:
 	dw RedsHouse2FPC
-	dw RedsHouse2FRadio
 	dw RedsHouse2FGame
 
 RedsHouse2FPC: ; ** TODO: Let you decorate your room?
 	TX_PLAYERS_PC
-
-RedsHouse2FRadio:
-	text "FERN: #MUSIC!"
-	line "With DJ FERN!"
-	done
 
 RedsHouse2FGame: ; ** TODO: Let you change the console?
 	TX_FAR _RedBedroomSNESText
