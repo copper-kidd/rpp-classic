@@ -28,7 +28,7 @@ WarpTileIDPointers:
 OverworldWarpTileIDs:
 	db 27,88,$FF
 GateWarpTileIDs:
-	db 22,26,28,59,$FF
+	db $12,$1A,$1C,$52,$5A,$FF
 RedsHouseWarpTileIDs:
 	db $5C,$5E,$FF
 MartWarpTileIDs:

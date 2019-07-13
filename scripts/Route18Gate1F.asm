@@ -44,10 +44,8 @@ Route18GateScript0:
 	ret
 
 CoordsData_498cc:
-	db $03,$04
-	db $04,$04
-	db $05,$04
-	db $06,$04
+	db 4,4
+	db 5,4
 	db $FF
 
 Route18GateScript1:

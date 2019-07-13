@@ -1,5 +1,5 @@
 TradeCenterObject:
-	db $e ; border block
+	db $0 ; border block
 
 	db 0 ; warps
 

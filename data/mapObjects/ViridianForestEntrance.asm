@@ -1,5 +1,5 @@
 ViridianForestEntranceObject:
-	db $a ; border block
+	db $0 ; border block
 
 	db 4 ; warps
 	warp 4, 0, 3, VIRIDIAN_FOREST
@@ -10,7 +10,7 @@ ViridianForestEntranceObject:
 	db 0 ; signs
 
 	db 2 ; objects
-	object SPRITE_GIRL, 8, 4, STAY, LEFT, 1 ; person
+	object SPRITE_GIRL,  9,  3, STAY, LEFT, 1 ; person
 	object SPRITE_LITTLE_GIRL, 2, 4, WALK, 1, 2 ; person
 
 	; warp-to

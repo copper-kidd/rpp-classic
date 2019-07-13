@@ -1,5 +1,5 @@
 Route16GateUpstairsObject:
-	db $a ; border block
+	db $0 ; border block
 
 	db 1 ; warps
 	warp 7, 7, 8, ROUTE_16_GATE_1F

@@ -1,5 +1,5 @@
 Route15GateUpstairsObject:
-	db $a ; border block
+	db $0 ; border block
 
 
 	db 1 ; warps

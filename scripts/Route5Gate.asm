@@ -46,8 +46,12 @@ Route5GateScript0:
 	ret
 
 CoordsData_1df8f:
+	db 3,2
 	db 3,3
 	db 3,4
+	db 3,5
+	db 3,6
+	db 3,7
 	db $ff
 
 Route5GateScript1:

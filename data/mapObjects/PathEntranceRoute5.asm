@@ -1,5 +1,5 @@
 UndergroundPathEntranceRoute5Object:
-	db $a ; border block
+	db $0 ; border block
 
 	db 3 ; warps
 	warp 3, 7, 3, LAST_MAP

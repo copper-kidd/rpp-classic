@@ -44,10 +44,8 @@ Route16GateScript0:
 	ret
 
 CoordsData_49714:
-	db $07,$04
-	db $08,$04
-	db $09,$04
-	db $0A,$04
+	db 10,4
+	db 11,4
 	db $FF
 
 Route16GateScript1:

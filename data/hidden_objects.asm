@@ -547,8 +547,10 @@ Route13HiddenObjects:
 	dbw BANK(HiddenItems),HiddenItems
 	db $FF
 SafariZoneEntranceHiddenObjects:
-	db $05,$01,NUGGET
+	db $06,$01,NUGGET
 	dbw BANK(HiddenItems),HiddenItems
+	db $05,$07,$04
+	dbw BANK(OpenPokemonCenterPC),OpenPokemonCenterPC
 	db $FF
 SafariZoneWestHiddenObjects:
 	db $05,$06,REVIVE

@@ -50,8 +50,8 @@ Route8GateScript0:
 	jp DisplayTextID
 
 CoordsData_1e22c:
-	db 3,2
-	db 4,2
+	db 4,4
+	db 5,4
 	db $ff
 
 Route8GateScript1:

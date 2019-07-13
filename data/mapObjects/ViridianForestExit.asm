@@ -1,5 +1,5 @@
 ViridianForestExitObject:
-	db $a ; border block
+	db $0 ; border block
 
 	db 4 ; warps
 	warp 4, 0, 1, LAST_MAP
@@ -11,7 +11,7 @@ ViridianForestExitObject:
 
 	db 2 ; objects
 	object SPRITE_BLACK_HAIR_BOY_2, 3, 2, STAY, NONE, 1 ; person
-	object SPRITE_OLD_PERSON, 2, 5, STAY, NONE, 2 ; person
+	object SPRITE_OLD_PERSON,  9,  3, STAY, LEFT, 2 ; person
 
 	; warp-to
 	warp_to 4, 0, VIRIDIAN_FOREST_EXIT_WIDTH

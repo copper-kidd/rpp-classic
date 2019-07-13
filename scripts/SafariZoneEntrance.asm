@@ -43,8 +43,8 @@ SafariZoneEntranceScriptPointers:
 	ret
 
 .CoordsData_75221:
-	db $02,$03
 	db $02,$04
+	db $02,$05
 	db $FF
 
 .SafariZoneEntranceScript1

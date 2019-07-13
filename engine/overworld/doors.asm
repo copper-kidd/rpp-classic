@@ -58,7 +58,7 @@ HouseDoorTileIDs:
 	db 62,$00
 
 GateDoorTileIDs:
-	db 22,59,$00
+	db $12,$1A,$1C,$00
 
 ShipDoorTileIDs:
 	db 30,$00

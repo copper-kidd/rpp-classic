@@ -75,21 +75,21 @@ ENDM
 	mapconst CERULEAN_MART,               4,  4 ; $43
 	mapconst MT_MOON_POKECENTER,          4,  7 ; $44
 	mapconst UNUSED_MAP_45,               1,  1 ; $45
-	mapconst ROUTE_5_GATE,                3,  4 ; $46
+	mapconst ROUTE_5_GATE,                4,  5 ; $46
 	mapconst PATH_ENTRANCE_ROUTE_5,       4,  4 ; $47
 	mapconst DAYCAREM,                    4,  4 ; $48
-	mapconst ROUTE_6_GATE,                3,  4 ; $49
+	mapconst ROUTE_6_GATE,                4,  5 ; $49
 	mapconst PATH_ENTRANCE_ROUTE_6,       4,  4 ; $4A
 	mapconst UNUSED_MAP_4B,               1,  1 ; $4B
-	mapconst ROUTE_7_GATE,                4,  3 ; $4C
+	mapconst ROUTE_7_GATE,                4,  5 ; $4C
 	mapconst PATH_ENTRANCE_ROUTE_7,       4,  4 ; $4D
 	mapconst UNUSED_MAP_4E,               1,  1 ; $4E
-	mapconst ROUTE_8_GATE,                4,  3 ; $4F
+	mapconst ROUTE_8_GATE,                4,  5 ; $4F
 	mapconst PATH_ENTRANCE_ROUTE_8,       4,  4 ; $50
 	mapconst ROCK_TUNNEL_POKECENTER,      4,  7 ; $51
 	mapconst ROCK_TUNNEL_1,              18, 20 ; $52
 	mapconst POWER_PLANT,                18, 20 ; $53
-	mapconst ROUTE_11_GATE_1F,            5,  4 ; $54
+	mapconst ROUTE_11_GATE_1F,            4,  5 ; $54
 	mapconst DIGLETTS_CAVE_ENTRANCE,      4,  4 ; $55
 	mapconst ROUTE_11_GATE_2F,            4,  4 ; $56
 	mapconst ROUTE_12_GATE_1F,            4,  5 ; $57
@@ -161,7 +161,7 @@ ENDM
 	mapconst FUCHSIA_HOUSE_1,             4,  4 ; $99
 	mapconst FUCHSIA_POKECENTER,          4,  7 ; $9A
 	mapconst FUCHSIA_HOUSE_2,             4,  5 ; $9B
-	mapconst SAFARI_ZONE_ENTRANCE,        3,  4 ; $9C
+	mapconst SAFARI_ZONE_ENTRANCE,        4,  5 ; $9C
 	mapconst FUCHSIA_GYM,                 9,  5 ; $9D
 	mapconst FUCHSIA_MEETING_ROOM,        4,  7 ; $9E
 	mapconst SEAFOAM_ISLANDS_2,           9, 15 ; $9F
@@ -189,9 +189,9 @@ ENDM
 	mapconst SILPH_CO_1F,                 9, 15 ; $B5
 	mapconst SAFFRON_POKECENTER,          4,  7 ; $B6
 	mapconst SAFFRON_HOUSE_2,             4,  4 ; $B7
-	mapconst ROUTE_15_GATE_1F,            5,  4 ; $B8
+	mapconst ROUTE_15_GATE_1F,            4,  5 ; $B8
 	mapconst ROUTE_15_GATE_2F,            4,  4 ; $B9
-	mapconst ROUTE_16_GATE_1F,            7,  4 ; $BA
+	mapconst ROUTE_16_GATE_1F,            7,  5 ; $BA
 	mapconst ROUTE_16_GATE_2F,            4,  4 ; $BB
 	mapconst ROUTE_16_HOUSE,              4,  4 ; $BC
 	mapconst ROUTE_12_HOUSE,              4,  4 ; $BD
@@ -209,7 +209,7 @@ ENDM
 	mapconst ROCKET_HIDEOUT_3,           14, 15 ; $C9
 	mapconst ROCKET_HIDEOUT_4,           12, 15 ; $CA
 	mapconst ROCKET_HIDEOUT_ELEVATOR,     4,  3 ; $CB
-	mapconst ROUTE_19_GATE,               3,  4 ; $CC
+	mapconst ROUTE_19_GATE,               4,  5 ; $CC
 	mapconst BEACH_HOUSE,                 4,  7 ; $CD
 	mapconst UNUSED_MAP_CE,               0,  0 ; $CE
 	mapconst SILPH_CO_2F,                 9, 15 ; $CF

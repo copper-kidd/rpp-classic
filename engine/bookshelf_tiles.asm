@@ -60,13 +60,13 @@ BookshelfTileIDs:
 	db_tx_pre PokemonStuffText
 	db MANSION,	  50
 	db_tx_pre BookOrSculptureText
-	db GATE,		 34
-	db_tx_pre BookOrSculptureText
-	db GATE,		 56
+	db GATE,		$22
 	db_tx_pre MyReflectionText
-	db GATE,		 78
+	db GATE,        $23
 	db_tx_pre MyReflectionText
-	db GATE,		 93
+	db GATE,		$5F
+	db_tx_pre MyReflectionText
+	db GATE,		$60
 	db_tx_pre MyReflectionText
 	db SHIP,		 54
 	db_tx_pre BookOrSculptureText
