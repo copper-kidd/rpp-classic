@@ -108,6 +108,8 @@ BookshelfTileIDs:
 	db_tx_pre ElevatorText
 	db FERRY,		 4
 	db_tx_pre MyReflectionText
+	db MUSEUM, $22
+	db_tx_pre BookOrSculptureText
 	db $FF
 
 IndigoPlateauStatues:

@@ -8,7 +8,7 @@ Safari_Coll::
 Forest_Coll::       INCLUDE  "gfx/tilesets/forest.asm"
 House_Coll::        INCLUDE  "gfx/tilesets/house.asm"
 PlayerRoom_Coll::   INCLUDE  "gfx/tilesets/player_room.asm"
-Museum_Coll::       INCLUDE  "gfx/tilesets/museum.asm" ; applies to Museum and Museum 2
+Museum_Coll::       INCLUDE  "gfx/tilesets/museum.asm"
 Gate_Coll::         INCLUDE  "gfx/tilesets/gate.asm"
 Ship_Coll::         INCLUDE  "gfx/tilesets/ship.asm"
 ShipPort_Coll::     INCLUDE  "gfx/tilesets/ship_port.asm"

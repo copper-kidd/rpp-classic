@@ -24,7 +24,7 @@ WarpTileIDPointers:
 	dw SafariWarpTileIDs
 	dw FerryWarpTileIDs
 	dw CavernWarpTileIDs
-	dw MuseumWarpTileIDs
+
 OverworldWarpTileIDs:
 	db 27,88,$FF
 GateWarpTileIDs:
@@ -67,7 +67,7 @@ ClubWarpTileIDs:
 FerryWarpTileIDs:
 	db 16,48,$FF
 MuseumWarpTileIDs:
-	db $16,$1E,$FF
+	db $1A,$1C,$3B,$FF
 SafariWarpTileIDs:
 	db $3A,$5C,$FF
 PlayerRoomWarpTileIDs:

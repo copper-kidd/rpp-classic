@@ -4,10 +4,9 @@ Museum2FObject:
 	db 1 ; warps
 	warp 7, 7, 4, MUSEUM_1F
 
-	db 3 ; signs
+	db 2 ; signs
 	sign 11,  2, 6 ; Museum2FText6
 	sign  2,  5, 7 ; Museum2FText7
-	sign  2,  0, 8 ; Museum2FText8
 
 	db 5 ; objects
 	object SPRITE_BUG_CATCHER, 1, 7, WALK, 2, 1 ; person

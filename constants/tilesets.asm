@@ -25,4 +25,3 @@ const_value = 0
 	const SAFARI
 	const FERRY
 	const ICE_CAVERN
-	const MUSEUM_2

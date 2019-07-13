@@ -41,8 +41,3 @@ _Museum2FText7::
 	text "Meteorite that"
 	line "fell on Mt. Moon."
 	done
-
-_Museum2FText8::
-	text "A person wearing"
-	line "a space suit!"
-	done

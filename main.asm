@@ -2532,9 +2532,6 @@ SECTION "bank36",ROMX,BANK[$36]
 Museum_GFX:          INCBIN "gfx/tilesets/museum.2bpp"
 Museum_Block:        INCBIN "gfx/blocksets/museum.bst"
 
-Museum2_GFX:         INCBIN "gfx/tilesets/museum2.2bpp"
-Museum2_Block:       INCBIN "gfx/blocksets/museum2.bst"
-
 Safari_GFX:          INCBIN "gfx/tilesets/safari.2bpp"
 Safari_Block:        INCBIN "gfx/blocksets/safari.bst"
 
