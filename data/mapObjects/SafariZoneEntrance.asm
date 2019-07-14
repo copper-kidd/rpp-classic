@@ -9,9 +9,11 @@ SafariZoneEntranceObject:
 
 	db 0 ; signs
 
-	db 2 ; objects
+	db 4 ; objects
 	object SPRITE_WHITE_PLAYER,  7,  2, STAY, LEFT, 1 ; person
-	object SPRITE_WHITE_PLAYER,  2,  4, STAY, RIGHT, 2 ; person
+	object SPRITE_WHITE_PLAYER,  1,  2, STAY, DOWN, 2 ; person
+	object SPRITE_LASS,  2,  5,  WALK, 1, 3 ; person
+	object SPRITE_GENTLEMAN,  8,  6, STAY, DOWN, 4
 
 	; warp-to
 	warp_to  4,  7, SAFARI_ZONE_ENTRANCE_WIDTH

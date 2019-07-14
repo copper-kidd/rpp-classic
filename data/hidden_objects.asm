@@ -549,7 +549,7 @@ Route13HiddenObjects:
 SafariZoneEntranceHiddenObjects:
 	db $06,$01,NUGGET
 	dbw BANK(HiddenItems),HiddenItems
-	db $05,$07,$04
+	db $03,$07,$04
 	dbw BANK(OpenPokemonCenterPC),OpenPokemonCenterPC
 	db $FF
 SafariZoneWestHiddenObjects:

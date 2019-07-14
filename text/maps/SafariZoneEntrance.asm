@@ -136,3 +136,19 @@ _SafariZoneLowCostText8::
 	text "Read my lips, NO!"
 	line "Get it?"
 	done
+
+_SafariZoneEntranceGirlText::
+	text "I'm gonna catch"
+	line "so many #mon!"
+	
+	para "I just switched"
+	line "boxes on the PC"
+	cont "to have space."
+	done
+
+_SafariZoneEntranceGentlemanText::
+	text "The Safari Zone"
+	line "imports some of"
+	cont "its #mon from"
+	cont "Johto!"
+	done

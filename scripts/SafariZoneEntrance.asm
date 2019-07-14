@@ -17,7 +17,7 @@ SafariZoneEntranceScriptPointers:
 	ld hl, .CoordsData_75221
 	call ArePlayerCoordsInArray
 	ret nc
-	ld a, $3
+	ld a, $5 ; used to be 3
 	ld [hSpriteIndexOrTextID], a
 	call DisplayTextID
 	ld a, $ff
@@ -55,7 +55,7 @@ SafariZoneEntranceScriptPointers:
 	ld [hJoyHeld], a
 	ld [wJoyIgnore], a
 	call UpdateSprites
-	ld a, $4
+	ld a, $6 ; used to be 4
 	ld [hSpriteIndexOrTextID], a
 	call DisplayTextID
 	ld a, $ff
@@ -80,7 +80,7 @@ SafariZoneEntranceScriptPointers:
 	call UpdateSprites
 	ld a, $f0
 	ld [wJoyIgnore], a
-	ld a, $6
+	ld a, $8 ; used to be 6
 	ld [hSpriteIndexOrTextID], a
 	call DisplayTextID
 	xor a
@@ -92,7 +92,7 @@ SafariZoneEntranceScriptPointers:
 	ld [wSafariZoneEntranceCurScript], a
 	jr .asm_75286
 .asm_7527f
-	ld a, $5
+	ld a, $7 ; used to be 5
 	ld [hSpriteIndexOrTextID], a
 	call DisplayTextID
 .asm_75286
@@ -133,6 +133,8 @@ SafariZoneEntranceScript_752b4:
 SafariZoneEntranceTextPointers:
 	dw .SafariZoneEntranceText1
 	dw .SafariZoneEntranceText2
+	dw .SafariZoneEntranceGirlText
+	dw .SafariZoneEntranceGentlemanText
 	dw .SafariZoneEntranceText1
 	dw .SafariZoneEntranceText4
 	dw .SafariZoneEntranceText5
@@ -308,6 +310,14 @@ SafariZoneEntranceTextPointers:
 
 .RegularText
 	TX_FAR _SafariZoneEntranceText_753f0
+	db "@"
+
+.SafariZoneEntranceGirlText
+	TX_FAR _SafariZoneEntranceGirlText
+	db "@"
+
+.SafariZoneEntranceGentlemanText
+	TX_FAR _SafariZoneEntranceGentlemanText
 	db "@"
 
 SafariZoneEntranceCalculateLowCostAdmission:

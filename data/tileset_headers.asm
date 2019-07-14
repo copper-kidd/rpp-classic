@@ -9,7 +9,7 @@ Tilesets:
 	tileset PlayerRoom_Block,  PlayerRoom_GFX,  PlayerRoom_Coll,  $FF,$FF,$FF, $FF, INDOOR
 	tileset Museum_Block,      Museum_GFX,      Museum_Coll,      $17,$32,$FF, $FF, INDOOR
 	tileset Underground_Block, Underground_GFX, Underground_Coll, $FF,$FF,$FF, $FF, INDOOR
-	tileset Gate_Block,        Gate_GFX,        Gate_Coll,        $18,$24,$FF, $FF, INDOOR
+	tileset Gate_Block,        Gate_GFX,        Gate_Coll,        $18,$24,$75, $FF, INDOOR
 	tileset Ship_Block,        Ship_GFX,        Ship_Coll,        $FF,$FF,$FF, $FF, CAVE
 	tileset ShipPort_Block,    ShipPort_GFX,    ShipPort_Coll,    $FF,$FF,$FF, $FF, CAVE
 	tileset Cemetery_Block,    Cemetery_GFX,    Cemetery_Coll,    $12,$FF,$FF, $FF, INDOOR
