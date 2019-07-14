@@ -58,7 +58,7 @@ BookshelfTileIDs:
 	db_tx_pre PokemonStuffText
 	db MART,		 92
 	db_tx_pre PokemonStuffText
-	db MANSION,	  50
+	db MANSION,	  $32
 	db_tx_pre BookOrSculptureText
 	db GATE,		$22
 	db_tx_pre MyReflectionText
@@ -144,7 +144,7 @@ BookOrSculptureText:
 	cp MANSION ; Celadon Mansion tileset
 	jr nz, .ok
 	aCoord 8, 6
-	cp $38
+	cp $34
 	jr nz, .ok
 	ld hl, DiglettSculptureText
 .ok

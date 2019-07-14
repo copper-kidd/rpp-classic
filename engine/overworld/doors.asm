@@ -67,7 +67,7 @@ LobbyDoorTileIDs:
 	db 26,56,$00
 
 MansionDoorTileIDs:
-	db 26,28,83,$00
+	db $18,$1A,$30,$00
 
 LabDoorTileIDs:
 	db 52,$00
