@@ -1,31 +1,19 @@
 HiddenObjectMaps:
 	db OAKS_LAB
-	db VIRIDIAN_POKECENTER
 	db VIRIDIAN_MART
 	db VIRIDIAN_SCHOOL
 	db VIRIDIAN_GYM
 	db MUSEUM_1F
 	db PEWTER_GYM
 	db PEWTER_MART
-	db PEWTER_POKECENTER
-	db CERULEAN_POKECENTER
 	db CERULEAN_GYM
 	db CERULEAN_MART
-	db LAVENDER_POKECENTER
-	db VERMILION_POKECENTER
 	db VERMILION_GYM
-	db CELADON_MANSION_2
-	db CELADON_POKECENTER
 	db CELADON_GYM
 	db GAME_CORNER
-	db CELADON_HOTEL
-	db FUCHSIA_POKECENTER
 	db FUCHSIA_GYM
 	db CINNABAR_GYM
-	db CINNABAR_POKECENTER
 	db SAFFRON_GYM
-	db MT_MOON_POKECENTER
-	db ROCK_TUNNEL_POKECENTER
 	db TRADE_CENTER
 	db COLOSSEUM
 	db VIRIDIAN_FOREST
@@ -38,7 +26,6 @@ HiddenObjectMaps:
 	db ROCKET_HIDEOUT_1
 	db ROCKET_HIDEOUT_3
 	db ROCKET_HIDEOUT_4
-	db SAFFRON_POKECENTER
 	db POKEMONTOWER_5
 	db ROUTE_13
 	db SAFARI_ZONE_ENTRANCE
@@ -57,22 +44,16 @@ HiddenObjectMaps:
 	db VICTORY_ROAD_2
 	db BILLS_HOUSE
 	db VIRIDIAN_CITY
-	db SAFARI_ZONE_REST_HOUSE_2
-	db SAFARI_ZONE_REST_HOUSE_3
-	db SAFARI_ZONE_REST_HOUSE_4
 	db ROUTE_15_GATE_2F
 	db LAVENDER_HOUSE_1
 	db CELADON_MANSION_5
 	db FIGHTING_DOJO
 	db ROUTE_10
-	db INDIGO_PLATEAU_LOBBY
-	db CINNABAR_LAB_4
 	db BIKE_SHOP
 	db ROUTE_11
 	db ROUTE_12
 	db MANSION_2
 	db MANSION_4
-	db SILPH_CO_11F
 	db ROUTE_17
 	db UNDERGROUND_PATH_NS
 	db UNDERGROUND_PATH_WE
@@ -86,32 +67,20 @@ HiddenObjectMaps:
 HiddenObjectPointers:
 ; each of these pointers is for the corresponding map in HiddenObjectMaps
 	dw OaksLabHiddenObjects
-	dw ViridianPokecenterHiddenObjects
 	dw ViridianMartHiddenObjects
 	dw ViridianSchoolHiddenObjects
 	dw ViridianGymHiddenObjects
 	dw Museum1FHiddenObjects
 	dw PewterGymHiddenObjects
 	dw PewterMartHiddenObjects
-	dw PewterPokecenterHiddenObjects
-	dw CeruleanPokecenterHiddenObjects
 	dw CeruleanGymHiddenObjects
 	dw CeruleanMartHiddenObjects
-	dw LavenderPokecenterHiddenObjects
-	dw VermilionPokecenterHiddenObjects
 	dw VermilionGymHiddenObjects
-	dw CeladonMansion2HiddenObjects
-	dw CeladonPokecenterHiddenObjects
 	dw CeladonGymHiddenObjects
 	dw GameCornerHiddenObjects
-	dw CeladonHotelHiddenObjects
-	dw FuchsiaPokecenterHiddenObjects
 	dw FuchsiaGymHiddenObjects
 	dw CinnabarGymHiddenObjects
-	dw CinnabarPokecenterHiddenObjects
 	dw SaffronGymHiddenObjects
-	dw MtMoonPokecenterHiddenObjects
-	dw RockTunnelPokecenterHiddenObjects
 	dw TradeCenterHiddenObjects
 	dw ColosseumHiddenObjects
 	dw ViridianForestHiddenObjects
@@ -124,7 +93,6 @@ HiddenObjectPointers:
 	dw RocketHideout1HiddenObjects
 	dw RocketHideout3HiddenObjects
 	dw RocketHideout4HiddenObjects
-	dw SaffronPokecenterHiddenObjects
 	dw PokemonTower5HiddenObjects
 	dw Route13HiddenObjects
 	dw SafariZoneEntranceHiddenObjects
@@ -143,22 +111,16 @@ HiddenObjectPointers:
 	dw VictoryRoad2HiddenObjects
 	dw BillsHouseHiddenObjects
 	dw ViridianCityHiddenObjects
-	dw SafariZoneRestHouse2HiddenObjects
-	dw SafariZoneRestHouse3HiddenObjects
-	dw SafariZoneRestHouse4HiddenObjects
 	dw Route15GateUpstairsHiddenObjects
 	dw LavenderHouse1HiddenObjects
 	dw CeladonMansion5HiddenObjects
 	dw FightingDojoHiddenObjects
 	dw Route10HiddenObjects
-	dw IndigoPlateauLobbyHiddenObjects
-	dw CinnabarLab4HiddenObjects
 	dw BikeShopHiddenObjects
 	dw Route11HiddenObjects
 	dw Route12HiddenObjects
 	dw Mansion2HiddenObjects
 	dw Mansion4HiddenObjects
-	dw SilphCo11FHiddenObjects
 	dw Route17HiddenObjects
 	dw UndergroundPathNsHiddenObjects
 	dw UndergroundPathWeHiddenObjects
@@ -199,11 +161,6 @@ OaksLabHiddenObjects:
 	db BANK(DisplayOakLabEmailText)
 	dw DisplayOakLabEmailText
 	db $FF
-ViridianPokecenterHiddenObjects:
-	db $03,$0d,$04
-	db BANK(OpenPokemonCenterPC)
-	dw OpenPokemonCenterPC
-	db $FF
 ViridianMartHiddenObjects:
 	db $FF
 ViridianSchoolHiddenObjects:
@@ -234,16 +191,6 @@ PewterGymHiddenObjects:
 	db $FF
 PewterMartHiddenObjects:
 	db $FF
-PewterPokecenterHiddenObjects:
-	db $03,$0d,$04
-	db BANK(OpenPokemonCenterPC)
-	dw OpenPokemonCenterPC
-	db $FF
-CeruleanPokecenterHiddenObjects:
-	db $03,$0d,$04
-	db BANK(OpenPokemonCenterPC)
-	dw OpenPokemonCenterPC
-	db $FF
 CeruleanGymHiddenObjects:
 	db $0b,$03,$04
 	dbw BANK(GymStatues),GymStatues
@@ -251,16 +198,6 @@ CeruleanGymHiddenObjects:
 	dbw BANK(GymStatues),GymStatues
 	db $FF
 CeruleanMartHiddenObjects:
-	db $FF
-LavenderPokecenterHiddenObjects:
-	db $03,$0d,$04
-	db BANK(OpenPokemonCenterPC)
-	dw OpenPokemonCenterPC
-	db $FF
-VermilionPokecenterHiddenObjects:
-	db $03,$0d,$04
-	db BANK(OpenPokemonCenterPC)
-	dw OpenPokemonCenterPC
 	db $FF
 VermilionGymHiddenObjects:
 	db $0e,$03,$04
@@ -299,16 +236,6 @@ VermilionGymHiddenObjects:
 	dbw BANK(GymTrashScript), GymTrashScript
 	db $0b,$09,$0e
 	dbw BANK(GymTrashScript), GymTrashScript
-	db $FF
-CeladonMansion2HiddenObjects:
-	db $05,$00,$04
-	db BANK(OpenPokemonCenterPC)
-	dw OpenPokemonCenterPC
-	db $FF
-CeladonPokecenterHiddenObjects:
-	db $03,$0d,$04
-	db BANK(OpenPokemonCenterPC)
-	dw OpenPokemonCenterPC
 	db $FF
 CeladonGymHiddenObjects:
 	db $0f,$03,$04
@@ -414,16 +341,6 @@ GameCornerHiddenObjects:
 	db $0f,$0c,COIN+10
 	dbw BANK(HiddenCoins),HiddenCoins
 	db $FF
-CeladonHotelHiddenObjects:
-	db $03,$0d,$04
-	db BANK(OpenPokemonCenterPC)
-	dw OpenPokemonCenterPC
-	db $FF
-FuchsiaPokecenterHiddenObjects:
-	db $03,$0d,$04
-	db BANK(OpenPokemonCenterPC)
-	dw OpenPokemonCenterPC
-	db $FF
 FuchsiaGymHiddenObjects:
 	db $0f,$03,$04
 	dbw BANK(GymStatues),GymStatues
@@ -452,24 +369,9 @@ CinnabarGymHiddenObjects:
 	db Bank(PrintCinnabarQuiz)
 	dw PrintCinnabarQuiz
 	db $FF
-CinnabarPokecenterHiddenObjects:
-	db $03,$0d,$04
-	db BANK(OpenPokemonCenterPC)
-	dw OpenPokemonCenterPC
-	db $FF
 SaffronGymHiddenObjects:
 	db $0f,$09,$04
 	dbw BANK(GymStatues),GymStatues
-	db $FF
-MtMoonPokecenterHiddenObjects:
-	db $03,$0d,$04
-	db BANK(OpenPokemonCenterPC)
-	dw OpenPokemonCenterPC
-	db $FF
-RockTunnelPokecenterHiddenObjects:
-	db $03,$0d,$04
-	db BANK(OpenPokemonCenterPC)
-	dw OpenPokemonCenterPC
 	db $FF
 ViridianForestHiddenObjects:
 	db $12,$01,POTION
@@ -531,11 +433,6 @@ RocketHideout4HiddenObjects:
 	db $01,$19,SUPER_POTION
 	dbw BANK(HiddenItems),HiddenItems
 	db $FF
-SaffronPokecenterHiddenObjects:
-	db $03,$0d,$04
-	db BANK(OpenPokemonCenterPC)
-	dw OpenPokemonCenterPC
-	db $FF
 PokemonTower5HiddenObjects:
 	db $0c,$04,ELIXER
 	dbw BANK(HiddenItems),HiddenItems
@@ -549,8 +446,6 @@ Route13HiddenObjects:
 SafariZoneEntranceHiddenObjects:
 	db $06,$01,NUGGET
 	dbw BANK(HiddenItems),HiddenItems
-	db $03,$07,$04
-	dbw BANK(OpenPokemonCenterPC),OpenPokemonCenterPC
 	db $FF
 SafariZoneWestHiddenObjects:
 	db $05,$06,REVIVE
@@ -643,21 +538,6 @@ ViridianCityHiddenObjects:
 	db $04,$0e,POTION
 	dbw BANK(HiddenItems),HiddenItems
 	db $FF
-SafariZoneRestHouse2HiddenObjects:
-	db $03,$0d,$04
-	db BANK(OpenPokemonCenterPC)
-	dw OpenPokemonCenterPC
-	db $FF
-SafariZoneRestHouse3HiddenObjects:
-	db $03,$0d,$04
-	db BANK(OpenPokemonCenterPC)
-	dw OpenPokemonCenterPC
-	db $FF
-SafariZoneRestHouse4HiddenObjects:
-	db $03,$0d,$04
-	db BANK(OpenPokemonCenterPC)
-	dw OpenPokemonCenterPC
-	db $FF
 Route15GateUpstairsHiddenObjects:
 	db $02,$01,$04
 	db BANK(Route15GateLeftBinoculars)
@@ -699,19 +579,6 @@ FightingDojoHiddenObjects:
 	db BANK(PrintFightingDojoText3)
 	dw PrintFightingDojoText3
 	db $FF
-IndigoPlateauLobbyHiddenObjects:
-	db $07,$0f,$04
-	db BANK(OpenPokemonCenterPC)
-	dw OpenPokemonCenterPC
-	db $FF
-CinnabarLab4HiddenObjects:
-	db $04,$00,$04
-	db BANK(OpenPokemonCenterPC)
-	dw OpenPokemonCenterPC
-	db $04,$02,$04
-	db BANK(OpenPokemonCenterPC)
-	dw OpenPokemonCenterPC
-	db $FF
 BikeShopHiddenObjects:
 	db $00,$01,$d0
 	dbw BANK(PrintNewBikeText), PrintNewBikeText
@@ -733,11 +600,6 @@ Route11HiddenObjects:
 Route12HiddenObjects:
 	db $3f,$02,HYPER_POTION
 	dbw BANK(HiddenItems),HiddenItems
-	db $FF
-SilphCo11FHiddenObjects:
-	db $0c,$0a,$04
-	db BANK(OpenPokemonCenterPC)
-	dw OpenPokemonCenterPC
 	db $FF
 Route17HiddenObjects:
 	db $0e,$0f,RARE_CANDY

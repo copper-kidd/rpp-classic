@@ -24,6 +24,7 @@ PrintBookshelfText:
 	jr nz, .nextBookshelfEntry2
 	ld a, [hl]
 	push af
+	call SaveScreenTilesToBuffer2
 	call EnableAutoTextBoxDrawing
 	pop af
 	call PrintPredefTextID
@@ -42,7 +43,9 @@ PrintBookshelfText:
 
 ; format: db tileset id, bookshelf tile id, text id
 BookshelfTileIDs:
-	db LAB,		  40
+	db LAB, $12
+	db_tx_pre PokemonCenterPCText
+	db LAB,	$2A
 	db_tx_pre BookOrSculptureText
 	db MART,		 26
 	db_tx_pre PokemonStuffText
@@ -58,18 +61,26 @@ BookshelfTileIDs:
 	db_tx_pre PokemonStuffText
 	db MART,		 92
 	db_tx_pre PokemonStuffText
-	db MANSION,	  $32
+	db MANSION,	$32
 	db_tx_pre BookOrSculptureText
-	db GATE,		$22
+	db MANSION, $3A
+	db_tx_pre PokemonCenterPCText
+	db GATE, $22
 	db_tx_pre MyReflectionText
-	db GATE,        $23
+	db GATE, $23
 	db_tx_pre MyReflectionText
-	db GATE,		$5F
+	db GATE, $4A
+	db_tx_pre PokemonCenterPCText
+	db GATE, $4E
+	db_tx_pre PokemonCenterPCText
+	db GATE, $5F
 	db_tx_pre MyReflectionText
-	db GATE,		$60
+	db GATE, $60
 	db_tx_pre MyReflectionText
 	db SHIP,		 54
 	db_tx_pre BookOrSculptureText
+	db REDS_HOUSE, $0C
+	db_tx_pre PokemonCenterPCText
 	db REDS_HOUSE, $3E
 	db_tx_pre BookOrSculptureText
 	db REDS_HOUSE, $41
@@ -98,11 +109,13 @@ BookshelfTileIDs:
 	db_tx_pre BookOrSculptureText
 	db GYM,		  29
 	db_tx_pre BookOrSculptureText
-	db POKECENTER,   $62
+	db POKECENTER, $30
+	db_tx_pre PokemonCenterPCText
+	db POKECENTER, $62
 	db_tx_pre PokemonStuffText
-	db POKECENTER,   $72
+	db POKECENTER, $72
 	db_tx_pre PokemonStuffText
-	db POKECENTER,   $74
+	db POKECENTER, $74
 	db_tx_pre PokemonStuffText
 	db LOBBY,		22
 	db_tx_pre ElevatorText
@@ -198,3 +211,6 @@ CutePosterText:
 	text "What a cute"
 	line "poster!"
 	done
+
+PokemonCenterPCText:
+	TX_POKECENTER_PC
