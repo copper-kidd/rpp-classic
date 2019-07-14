@@ -101,12 +101,16 @@ BookshelfTileIDs:
 	db_tx_pre MyReflectionText
 	db PLATEAU,	  48
 	db_tx_pre IndigoPlateauStatues
-	db HOUSE,		33
+	db HOUSE, $14
 	db_tx_pre MyReflectionText
-	db HOUSE,		60
-	db_tx_pre TownMapText
-	db HOUSE,		50
+	db HOUSE, $29
+	db_tx_pre ItsATVText
+	db HOUSE, $32
 	db_tx_pre BookOrSculptureText
+	db HOUSE, $3C
+	db_tx_pre TownMapText
+	db HOUSE, $44
+	db_tx_pre PokemonCenterPCText
 	db GYM,		  29
 	db_tx_pre BookOrSculptureText
 	db POKECENTER, $30
@@ -216,3 +220,7 @@ CutePosterText:
 
 PokemonCenterPCText:
 	TX_POKECENTER_PC
+
+ItsATVText: ; TODO: Change the text based on flags?
+	text "It's a TV."
+	done

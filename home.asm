@@ -4743,7 +4743,7 @@ const_value = 1
 
 	add_tx_pre CardKeySuccessText                   ; 01
 	add_tx_pre CardKeyFailText                      ; 02
-	add_tx_pre RedsHouse2FPC                        ; 03 XXX unused
+	add_tx_pre ItsATVText                           ; 03
 	add_tx_pre RedsHouse2FGame                      ; 04 XXX unused
 	add_tx_pre PushStartText                        ; 05
 	add_tx_pre SaveOptionText                       ; 06

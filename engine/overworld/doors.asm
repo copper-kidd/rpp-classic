@@ -55,7 +55,7 @@ PokecenterDoorTileIDs:
 	db $1A,$00
 
 HouseDoorTileIDs:
-	db 62,$00
+	db $3E,$00
 
 GateDoorTileIDs:
 	db $12,$1A,$1C,$00

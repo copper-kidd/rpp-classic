@@ -8,7 +8,7 @@ VermilionHouse3Object:
 	db 0 ; signs
 
 	db 1 ; objects
-	object SPRITE_OFFICER_JENNY, 3, 5, STAY, UP, 1 ; person
+	object SPRITE_OFFICER_JENNY,  2,  3, STAY, RIGHT, 1 ; person
 
 	; warp-to
 	warp_to 2, 7, VERMILION_HOUSE_3_WIDTH

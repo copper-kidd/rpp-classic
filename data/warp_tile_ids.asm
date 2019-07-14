@@ -40,7 +40,7 @@ ForestWarpTileIDs:
 GymWarpTileIDs:
 	db 74,$FF
 HouseWarpTileIDs:
-	db 62,$FF
+	db $3E,$FF
 ShipWarpTileIDs:
 	db 55,57,30,74,$FF
 InteriorWarpTileIDs:
