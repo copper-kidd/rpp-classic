@@ -123,6 +123,8 @@ BookshelfTileIDs:
 	db_tx_pre MyReflectionText
 	db MUSEUM, $22
 	db_tx_pre BookOrSculptureText
+	db INTERIOR, $1B
+	db_tx_pre PokemonCenterPCText
 	db $FF
 
 IndigoPlateauStatues:
