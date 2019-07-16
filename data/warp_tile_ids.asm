@@ -44,7 +44,7 @@ HouseWarpTileIDs:
 ShipWarpTileIDs:
 	db 55,57,30,74,$FF
 InteriorWarpTileIDs:
-	db 21,85,4,$FF
+	db $FF
 CavernWarpTileIDs:
 	db 24,26,34,52,56,$FF
 LobbyWarpTileIDs:

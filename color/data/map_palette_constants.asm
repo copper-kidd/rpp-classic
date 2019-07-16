@@ -34,7 +34,7 @@ const_value = 0
 	const SSANNE_PAL        ; 20
 	const FOREST_TREES      ; 21
 	const ALT_TEXTBOX_PAL   ; 22: used in areas with skeleton pokemon
-	const POKECENTER_FLOOR  ; 23
+	const BILLS_FLOOR       ; 23
 	const SAFARI_GRASS      ; 24
 	const ALT_TEXTBOX_2     ; 25: used to show Articuno properly via the Binoculars
 	const INDOOR_PURPLE     ; 26
