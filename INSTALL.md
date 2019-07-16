@@ -30,7 +30,7 @@ Then in **Terminal**, run:
 	xcode-select --install
 	brew install rgbds
 
-	git clone --recursive git://github.com/TheFakeMateo/rpp-classic.git
+	git clone --recursive git://github.com/copper-kidd/rpp-classic.git
 	cd rpp-classic
 
 	make
