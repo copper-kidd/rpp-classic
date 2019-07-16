@@ -43,3 +43,4 @@ pokeblue.map
 
 # ignore local rgbds
 rgbds/*
+*.sn*
