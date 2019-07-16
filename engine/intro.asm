@@ -303,13 +303,13 @@ LoadIntroGraphics:
 
 PlayShootingStar:
 ; load Meowth palette to screen and call Mateo Presents instead of Nintendo Creatures Gamefreak
-	ld a, MEOWTH
-	ld [wWholeScreenPaletteMonSpecies],a
-	ld b, SET_PAL_POKEMON_WHOLE_SCREEN
-	call RunPaletteCommand
-	callba LoadVBAWarning
-	ld a, %11100100
-	ld [rBGP], a
+;	ld a, MEOWTH
+;	ld [wWholeScreenPaletteMonSpecies],a
+;	ld b, SET_PAL_POKEMON_WHOLE_SCREEN
+;	call RunPaletteCommand
+;	callba LoadVBAWarning
+;	ld a, %11100100
+;	ld [rBGP], a
 ; clear the screen and get ready to show the original stuff properly
 	call GBPalWhiteOut ; addded
 	call ClearScreen
