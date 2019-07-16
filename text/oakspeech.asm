@@ -70,7 +70,7 @@ _OakSpeechText3::
 	para "A world of dreams"
 	line "and adventures"
 	cont "with #mon"
-	cont "awaits...Let's go!"
+	cont "awaits... Let's go!"
 	done
 
 _BoyGirlText::
