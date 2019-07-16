@@ -129,7 +129,7 @@ BookshelfTileIDs:
 	db_tx_pre BookOrSculptureText
 	db INTERIOR, $1B
 	db_tx_pre PokemonCenterPCText
-	db FACILITY, $47
+	db FACILITY, $73
 	db_tx_pre PokemonCenterPCText
 	db $FF
 
