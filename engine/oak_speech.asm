@@ -58,7 +58,7 @@ OakSpeech:
 	xor a
 	ld [hTilesetType],a
 	
-	callba DisplayHackVersionScreen
+;	callba DisplayHackVersionScreen
 	
 	call GBFadeOutToWhite
 	ld a, PAL_MEWMON
