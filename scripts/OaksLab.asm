@@ -930,6 +930,8 @@ OaksLabMonChoiceMenu:
 	ld [wCurEnemyLVL], a
 	ld a, [wcf91]
 	ld [wd11e], a
+	ld hl, wExtraFlags
+	set 0, [hl]
 	call AddPartyMon
 	ld hl, wd72e
 	set 3, [hl]
