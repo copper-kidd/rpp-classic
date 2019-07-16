@@ -49,7 +49,6 @@ HiddenObjectMaps:
 	db CELADON_MANSION_5
 	db FIGHTING_DOJO
 	db ROUTE_10
-	db BIKE_SHOP
 	db ROUTE_11
 	db ROUTE_12
 	db MANSION_2
@@ -116,7 +115,6 @@ HiddenObjectPointers:
 	dw CeladonMansion5HiddenObjects
 	dw FightingDojoHiddenObjects
 	dw Route10HiddenObjects
-	dw BikeShopHiddenObjects
 	dw Route11HiddenObjects
 	dw Route12HiddenObjects
 	dw Mansion2HiddenObjects
@@ -578,20 +576,6 @@ FightingDojoHiddenObjects:
 	db $00,$05,$04
 	db BANK(PrintFightingDojoText3)
 	dw PrintFightingDojoText3
-	db $FF
-BikeShopHiddenObjects:
-	db $00,$01,$d0
-	dbw BANK(PrintNewBikeText), PrintNewBikeText
-	db $01,$02,$d0
-	dbw BANK(PrintNewBikeText), PrintNewBikeText
-	db $02,$01,$d0
-	dbw BANK(PrintNewBikeText), PrintNewBikeText
-	db $02,$03,$d0
-	dbw BANK(PrintNewBikeText), PrintNewBikeText
-	db $04,$00,$d0
-	dbw BANK(PrintNewBikeText), PrintNewBikeText
-	db $05,$01,$d0
-	dbw BANK(PrintNewBikeText), PrintNewBikeText
 	db $FF
 Route11HiddenObjects:
 	db $05,$30,ESCAPE_ROPE

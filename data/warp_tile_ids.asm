@@ -62,8 +62,9 @@ UndergroundWarpTileIDs:
 PlateauWarpTileIDs:
 	db 27,59,$FF
 ShipPortWarpTileIDs:
-ClubWarpTileIDs:
 	db $FF
+ClubWarpTileIDs:
+	db $5B,$FF
 FerryWarpTileIDs:
 	db 16,48,$FF
 MuseumWarpTileIDs:

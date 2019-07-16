@@ -5,7 +5,7 @@ Tilesets:
 	tileset Forest_Block,      Forest_GFX,      Forest_Coll,      $FF,$FF,$FF, $20, CAVE
 	tileset Pokecenter_Block,  Pokecenter_GFX,  Pokecenter_Coll,  $14,$6A,$70, $FF, INDOOR
 	tileset Gym_Block,         Gym_GFX,         Gym_Coll,         $3A,$FF,$FF, $FF, OUTDOOR
-	tileset House_Block,       House_GFX,       House_Coll,       54,255,255, 255, 0
+	tileset House_Block,       House_GFX,       House_Coll,       $36,$FF,$FF, $FF, INDOOR
 	tileset PlayerRoom_Block,  PlayerRoom_GFX,  PlayerRoom_Coll,  $FF,$FF,$FF, $FF, INDOOR
 	tileset Museum_Block,      Museum_GFX,      Museum_Coll,      $17,$32,$FF, $FF, INDOOR
 	tileset Underground_Block, Underground_GFX, Underground_Coll, $FF,$FF,$FF, $FF, INDOOR
@@ -18,7 +18,7 @@ Tilesets:
 	tileset Lobby_Block,       Lobby_GFX,       Lobby_Coll,       21,18,255, 255, 0
 	tileset Mansion_Block,     Mansion_GFX,     Mansion_Coll,     $FF,$FF,$FF, $FF, INDOOR
 	tileset Lab_Block,         Lab_GFX,         Lab_Coll,         $FF,$FF,$FF, $FF, INDOOR
-	tileset Club_Block,        Club_GFX,        Club_Coll,        $07,$17,$FF, $FF, INDOOR
+	tileset Club_Block,        Club_GFX,        Club_Coll,        $07,$35,$FF, $FF, INDOOR
 	tileset Facility_Block,    Facility_GFX,    Facility_Coll,    $12,$FF,$FF, $FF, CAVE
 	tileset Plateau_Block,     Plateau_GFX,     Plateau_Coll,     $FF,$FF,$FF, $45, CAVE
 	tileset Safari_Block,      Safari_GFX,      Safari_Coll,      $FF,$FF,$FF, $5A, CAVE

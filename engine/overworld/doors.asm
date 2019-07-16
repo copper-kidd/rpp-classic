@@ -43,6 +43,7 @@ DoorTileIDPointers:
 	dbw REDS_HOUSE,   RedsHouseDoorTileIDs
 	dbw MART,         MartDoorTileIDs
 	dbw FERRY,        FerryDoorTileIDs
+	dbw CLUB,         ClubDoorTileIDs
 	db $FF
 
 OverworldDoorTileIDs:
@@ -92,3 +93,6 @@ TilesetMuseumDoorTileIDs:
 
 PlayerRoomDoorTileIDs:
 	db $50,$00
+
+ClubDoorTileIDs:
+	db $5B,$00

@@ -5,6 +5,15 @@ BikeShopTextPointers:
 	dw BikeShopText1
 	dw BikeShopText2
 	dw BikeShopText3
+	dw NewBicycleText
+	dw NewBicycleText
+	dw NewBicycleText
+	dw NewBicycleText
+	dw NewBicycleText
+	dw NewBicycleText
+	dw NewBicycleText
+	dw NewBicycleText
+	dw NewBicycleText
 
 BikeShopText1:
 	TX_ASM
@@ -144,4 +153,8 @@ BikeShopText_1d85c:
 
 BikeShopText_1d861:
 	TX_FAR _BikeShopText_1d861
+	db "@"
+
+NewBicycleText:
+	TX_FAR _NewBicycleText
 	db "@"

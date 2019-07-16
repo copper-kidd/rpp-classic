@@ -507,11 +507,6 @@ _BookcaseText::
 	line "#mon books!"
 	done
 
-_NewBicycleText::
-	text "A shiny new"
-	line "Bicycle!"
-	done
-
 _PushStartText::
 	text "Push Start to"
 	line "open the Menu!"

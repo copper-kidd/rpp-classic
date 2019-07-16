@@ -1,11 +1,3 @@
-PrintNewBikeText:
-	call EnableAutoTextBoxDrawing
-	tx_pre_jump NewBicycleText
-
-NewBicycleText:
-	TX_FAR _NewBicycleText
-	db "@"
-
 DisplayOakLabLeftPoster:
 	call EnableAutoTextBoxDrawing
 	tx_pre_jump PushStartText
