@@ -2264,6 +2264,7 @@ _ColosseumText1::
 	done
 
 INCLUDE "text/maps/RedsHouse1F.asm"
+INCLUDE "text/maps/RedsHouse3F.asm"
 INCLUDE "text/maps/BluesHouse.asm"
 INCLUDE "text/maps/OaksLab.asm"
 INCLUDE "text/maps/ViridianPokecenter.asm"

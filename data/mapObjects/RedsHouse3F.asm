@@ -6,7 +6,8 @@ RedsHouse3FObject:
 
 	db 0 ; signs
 
-	db 0 ; objects
+	db 1 ; objects
+	object SPRITE_BALL,  1,  5, STAY, NONE, 1, NUGGET
 
 	; warp-to
 	warp_to  3,  0, REDS_HOUSE_2F_WIDTH ; Where Red starts on 3F
