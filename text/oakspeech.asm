@@ -51,13 +51,13 @@ _IntroduceRivalText::
 	line "rival since you"
 	cont "were younger."
 
-	para "...Erm, what is"
-	line "his name again?"
+	para "...Erm, what is his"
+	line "name again?"
 	prompt
 
 _IntroduceRivalText2::
-	text "...Erm, what is"
-	line "his name again?"
+	text "...Erm, what is his"
+	line "name again?"
 	prompt
 
 _OakSpeechText3::
