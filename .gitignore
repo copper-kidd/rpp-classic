@@ -43,4 +43,6 @@ pokeblue.map
 
 # ignore local rgbds
 rgbds/*
-*.sn*
+
+# ignore save states
+*.sn1
