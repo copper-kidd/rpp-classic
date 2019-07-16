@@ -68,3 +68,8 @@ _BikeShopText_1d861::
 	text "Wow. Your Bike is"
 	line "really cool!"
 	done
+
+_NewBicycleText::
+	text "A shiny new"
+	line "Bicycle!"
+	done
