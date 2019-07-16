@@ -98,8 +98,8 @@ OakSpeech:
 	call PrintText
 	call GBFadeOutToWhite
 	;call ClearScreen
-	call GetNidoPalID ; HAX
-	ld a, NIDORINO
+	call GetUmbreonPalID  ; HAX
+	ld a, UMBREON
 	ld [wd0b5],a
 	ld [wcf91],a
 	call GetMonHeader
@@ -211,7 +211,7 @@ OakSpeechText1:
 	db "@"
 OakSpeechText2:
 	TX_FAR _OakSpeechText2A
-	TX_CRY_NIDORINO
+	TX_CRY_UMBREON
 	TX_FAR _OakSpeechText2B
 	db "@"
 IntroducePlayerText:
