@@ -253,6 +253,7 @@ ENDM
 	mapconst LORELEIS_ROOM,               6,  5 ; $F5
 	mapconst BRUNOS_ROOM,                 6,  5 ; $F6
 	mapconst AGATHAS_ROOM,                6,  5 ; $F7
+	mapconst REDS_HOUSE_3F,               4,  4 ; $F8												   
 
 
 LAST_MAP EQU -1

@@ -512,6 +512,11 @@ INCLUDE "scripts/BillsHouse.asm"
 INCLUDE "data/mapObjects/BillsHouse.asm"
 BillsHouseBlocks: INCBIN "maps/BillsHouse.blk"
 
+INCLUDE "data/mapHeaders/RedsHouse3F.asm"
+INCLUDE "scripts/RedsHouse3F.asm"
+INCLUDE "data/mapObjects/RedsHouse3F.asm"
+RedsHouse3FBlocks: INCBIN "maps/RedsHouse3F.blk"
+
 INCLUDE "engine/menu/oaks_pc.asm"
 
 INCLUDE "engine/hidden_object_functions7.asm"
