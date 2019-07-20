@@ -1,6 +1,6 @@
-_RedsHouse3FNuggetText::
-	text "Holy crap!"
+_RedsHouse3FPokeballText::
+	text "Dude!"
 
-	para "A regenerating"
-	line "gold nugget!"
+	para "A gold nugget and"
+	line "a Master Ball!"
 	done

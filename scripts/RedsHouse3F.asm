@@ -3,14 +3,17 @@ RedsHouse3FScript:
 
 RedsHouse3FTextPointers:
 	dw RedsHouse3FPokeball
-	dw FoundItemText2
 	
 RedsHouse3FPokeball:
 	TX_ASM
 	lb bc, NUGGET, 1
 	call GiveItem
 	jr nc, .BagFull
-	ld hl, .NuggetText
+	lb bc, MASTER_BALL, 1
+	call GiveItem
+	jr nc, .BagFull
+	ld [wDoNotWaitForButtonPressAfterDisplayingText], a	
+	ld hl, .RedsHouse3FPokeballText
 	call PrintText
 	ret
 	
@@ -18,8 +21,8 @@ RedsHouse3FPokeball:
 	ld hl, NoMoreRoomForItemText
 	db "@"
 	
-.NuggetText
-	TX_FAR _RedsHouse3FNuggetText
+.RedsHouse3FPokeballText
+	TX_FAR _RedsHouse3FPokeballText
 	db "@"
 	
 FoundItemText2:
