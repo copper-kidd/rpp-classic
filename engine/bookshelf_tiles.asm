@@ -121,7 +121,7 @@ BookshelfTileIDs:
 	db_tx_pre PokemonStuffText
 	db POKECENTER, $74
 	db_tx_pre PokemonStuffText
-	db LOBBY,		22
+	db LOBBY, $55
 	db_tx_pre ElevatorText
 	db FERRY,		 4
 	db_tx_pre MyReflectionText

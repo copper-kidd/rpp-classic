@@ -65,7 +65,7 @@ ShipDoorTileIDs:
 	db 30,$00
 
 LobbyDoorTileIDs:
-	db 26,56,$00
+	db $52,$54,$00
 
 MansionDoorTileIDs:
 	db $18,$1A,$30,$00

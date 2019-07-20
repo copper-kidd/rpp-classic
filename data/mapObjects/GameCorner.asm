@@ -1,5 +1,5 @@
 CeladonGameCornerObject:
-	db $f ; border block
+	db $0 ; border block
 
 	db 3 ; warps
 	warp 15, 17, 7, LAST_MAP
