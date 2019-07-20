@@ -1,5 +1,5 @@
 RocketHideoutElevatorObject:
-	db $f ; border block
+	db $0 ; border block
 
 	db 2 ; warps
 	warp 2, 1, 2, ROCKET_HIDEOUT_1
